@@ -1,0 +1,41 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>
+		{% if page.title %}
+			{{ page.title }} | {{ site.title }}
+		{% else %}
+			{{ site.title }}
+		{% endif %}
+	</title>
+	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+
+	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+	<link rel="alternate" type="application/rss+xml" title="LAM+ Feed" href="{{ '/feed.xml' | relative_url }}">
+
+	<script>
+		(function () {
+			if (window.location.pathname !== '/' && window.location.pathname !== '{{ site.baseurl }}/') {
+				return;
+			}
+
+			var stored = localStorage.getItem('lamplus-lang');
+			if (stored === 'pt' || stored === 'en') {
+				window.location.href = stored === 'en' ? '{{ '/en/' | relative_url }}' : '{{ '/pt/' | relative_url }}';
+				return;
+			}
+
+			var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+			if (lang.indexOf('en') === 0) {
+				localStorage.setItem('lamplus-lang', 'en');
+				window.location.href = '{{ '/en/' | relative_url }}';
+			} else {
+				localStorage.setItem('lamplus-lang', 'pt');
+				window.location.href = '{{ '/pt/' | relative_url }}';
+			}
+		})();
+	</script>
+
+	{% include analytics.html %}
+</head>

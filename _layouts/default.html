@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'pt' }}">
+	{% include head.html %}
+	<body class="{% if page.show_hero %}home{% else %}internal{% endif %}">
+		{% include institutional-bar.html %}
+		{% include navigation.html %}
+		{% if page.show_hero %}
+			{% include video-background.html %}
+		{% endif %}
+
+		<main class="content">
+			{{ content }}
+		</main>
+
+		{% include footer.html %}
+		<script src="{{ '/assets/js/menu.js' | relative_url }}"></script>
+	</body>
+</html>

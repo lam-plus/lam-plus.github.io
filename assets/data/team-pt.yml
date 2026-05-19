@@ -1,0 +1,220 @@
+# team-pt.yml
+# Arquivo curado para a página de equipe do LAM+.
+# Edite no VS Code conforme necessário.
+# Fotos esperadas em: /assets/img/team/
+# Convenção sugerida: nome-sobrenome.webp, proporção 1:1, mínimo recomendado 800x800 px.
+# Campos vazios em links devem ser ignorados pelo template do site.
+# ATENÇÃO: não publicar telefone, WhatsApp ou e-mail neste arquivo.
+
+metadata:
+  language: pt-BR
+  site_section: Equipe
+  description: Arquivo curado para geração da página de equipe do LAM+.
+  sorting:
+  - groups.order
+  - people.order
+  - people.name
+  privacy_note: Não incluir telefone, WhatsApp, e-mail pessoal/institucional ou outros dados pessoais sensíveis neste arquivo
+    público.
+groups:
+- id: coordination
+  title: Coordenação
+  order: 1
+- id: technical_staff
+  title: Equipe técnica e bolsistas técnicos
+  order: 2
+- id: postdoc
+  title: Pós-doutorado
+  order: 3
+- id: phd
+  title: Doutorado
+  order: 4
+- id: master
+  title: Mestrado
+  order: 5
+- id: undergraduate
+  title: Iniciação científica
+  order: 6
+- id: collaborators
+  title: Colaboradores
+  order: 7
+people:
+- id: ana-luiza-s-albuquerque
+  name: Ana Luiza S. Albuquerque
+  group: coordination
+  order: 1
+  role: Coordenação Geral
+  affiliation: Universidade Federal Fluminense - Departamento de Geologia e Geofísica
+  description: Coordena o LAM+ e atua em paleoclimatologia, paleoceanografia, geoquímica e sedimentologia marinha.
+  areas:
+  - XRF Core Scanning
+  - Imageamento Hiperespectral
+  - MEV-EDS
+  - Sedimentologia
+  - Geoquímica
+  - Paleoclimatologia
+  keywords:
+  - Paleoclimatologia
+  - Geoquímica
+  - Sedimentologia
+  photo: /assets/img/team/ana-luiza.png
+  links:
+    lattes: http://lattes.cnpq.br/4016720596063058
+    orcid: https://orcid.org/0000-0003-1267-6190
+    github: ''
+    linkedin: ''
+  active: true
+- id: igor-venancio
+  name: Igor Venancio
+  group: coordination
+  order: 2
+  role: Coordenação Científica
+  affiliation: Universidade Federal Fluminense, Programa de Pós-Graduação em Geociências (Geoquímica)
+  description: Atua em paleoclimatologia, paleoceanografia, geoquímica e registros sedimentares de alta resolução.
+  areas:
+  - XRF Core Scanning
+  - Imageamento Hiperespectral
+  - MEV-EDS
+  - Geoquímica
+  - Paleoclimatologia
+  - Micropaleontologia / Bioestratigrafia
+  keywords:
+  - Paleoceanografia
+  - Paleoclimatologia
+  - Geoquímica
+  photo: /assets/img/team/igor-venancio.png
+  links:
+    lattes: http://lattes.cnpq.br/8375137961138590
+    orcid: https://orcid.org/0000-0003-3118-4247
+    github: ''
+    linkedin: ''
+  active: true
+- id: andre-belem
+  name: André L. Belém
+  group: coordination
+  order: 3
+  role: Inteligência Artificial e Ciência de Dados
+  affiliation: Universidade Federal Fluminense
+  description: Atua na integração de inteligência artificial, ciência de dados e análise multissensorial aplicada a sequências
+    sedimentares.
+  areas:
+  - Inteligência Artificial / Machine Learning
+  - Banco de Dados / Sistema LAM+
+  - Imageamento Hiperespectral
+  keywords:
+  - Inteligência Artificial
+  - Ciência de Dados
+  - Imageamento
+  photo: /assets/img/team/andre-belem.png
+  links:
+    lattes: 'http://lattes.cnpq.br/8174173696509765'
+    orcid: 'https://orcid.org/0000-0002-8865-6180'
+    github: https://github.com/andrebelem
+    linkedin: 'https://www.linkedin.com/in/andre-belem/'
+  active: true
+  notes: Entrada adicionada manualmente porque André não aparece na planilha exportada.
+- id: leandro-candeia
+  name: Leandro Candeia
+  group: technical_staff
+  order: 1
+  role: Técnico de Laboratório
+  affiliation: Universidade Federal Fluminense — Departamento de Geologia e Geofísica e Departamento de Geoquímica
+  description: Atua na operação técnica do laboratório, apoio analítico e suporte às rotinas de geoquímica e instrumentação.
+  areas:
+  - XRF Core Scanning
+  - Imageamento Hiperespectral
+  - MEV-EDS
+  - Sedimentologia
+  - Geoquímica
+  - Instrumentação / Operação de Equipamentos
+  - Outro
+  keywords:
+  - Analise Geoquímica
+  photo: /assets/img/team/leandro-candeia.png
+  links:
+    lattes: http://lattes.cnpq.br/6110792771888106
+    orcid: https://orcid.org/0000-0002-9087-3299
+    github: ''
+    linkedin: ''
+  active: true
+- id: bernardo-nunes
+  name: Bernardo Nunes
+  group: technical_staff
+  order: 2
+  role: Bolsista Técnico DTI-FAPERJ
+  affiliation: Universidade Federal Fluminense — Departamento de Geologia e Geofísica e Departamento de Geoquímica
+  description: Graduando em Química e bolsista técnico do LAM+, com atuação em operação de equipamentos, geoquímica e suporte
+    ao sistema do laboratório.
+  areas:
+  - XRF Core Scanning
+  - Imageamento Hiperespectral
+  - MEV-EDS
+  - Sedimentologia
+  - Geoquímica
+  - Inteligência Artificial / Machine Learning
+  - Banco de Dados / Sistema LAM+
+  - Instrumentação / Operação de Equipamentos
+  - Outro
+  keywords:
+  - Sedimentologia
+  - Geoquímica
+  - Instrumentação
+  photo: /assets/img/team/bernardo-nunes.png
+  links:
+    lattes: https://lattes.cnpq.br/5033165630545048
+    orcid: https://orcid.org/0009-0006-2515-0517
+    github: ''
+    linkedin: ''
+  active: true
+- id: thiago-sebrean
+  name: Thiago Sebrean
+  group: undergraduate
+  order: 1
+  role: Estudante de Iniciação Científica
+  affiliation: Universidade Federal Fluminense - Departamento de Geologia e Geofisica e Departamento de Geoquímica
+  description: Graduando em Química na UFF, com atuação em geoquímica, sedimentologia e operação de equipamentos no LAM+.
+  areas:
+  - XRF Core Scanning
+  - Imageamento Hiperespectral
+  - MEV-EDS
+  - Sedimentologia
+  - Geoquímica
+  - Instrumentação / Operação de Equipamentos
+  keywords:
+  - Geoquímica
+  - Operação de Equipamentos
+  - Sedimentologia
+  photo: /assets/img/team/thiago-sebrean.png
+  links:
+    lattes: https://lattes.cnpq.br/4399143253787997
+    orcid: https://orcid.org/0009-0008-2317-1511
+    github: ''
+    linkedin: ''
+  active: true
+- id: lisiane-cruz
+  name: Lisiane Cruz
+  group: undergraduate
+  order: 2
+  role: Estudante de Iniciação Científica
+  affiliation: Universidade Federal Fluminense - Departamento de Geoquímica
+  description: Graduanda em Química na UFF, com atuação em geoquímica orgânica, análise multiespectral e estudo de sequências
+    sedimentares.
+  areas:
+  - XRF Core Scanning
+  - Imageamento Hiperespectral
+  - MEV-EDS
+  - Sedimentologia
+  - Geoquímica
+  - Banco de Dados / Sistema LAM+
+  - Instrumentação / Operação de Equipamentos
+  keywords:
+  - Carbono Orgânico Total (COT)
+  - Análise Multiespectral
+  - Geoquímica Sedimentar
+  photo: /assets/img/team/lisiane-cruz.png
+  links:
+    lattes: https://lattes.cnpq.br/8199020888027455
+    orcid: https://orcid.org/0009-0003-3975-5849
+    github: https://github.com/LissCruz
+    linkedin: ''
+  active: true

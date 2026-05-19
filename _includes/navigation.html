@@ -1,0 +1,111 @@
+<nav class="main-nav" aria-label="Main navigation">
+  <div class="nav-inner">
+
+    <!-- Logo / Brand -->
+    <a
+      class="nav-brand"
+      href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/pt/' | relative_url }}{% endif %}"
+      aria-label="LAM+ home"
+    >
+      <img
+        src="{{ '/assets/img/logo/lamplus-logo.png' | relative_url }}"
+        alt="LAM+"
+        class="nav-logo-img"
+      >
+    </a>
+
+    <!-- Hamburger button -->
+    <button
+      class="nav-toggle"
+      type="button"
+      aria-label="Toggle menu"
+      aria-expanded="false"
+      aria-controls="primary-menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Main menu -->
+    <ul class="nav-menu" id="primary-menu">
+      {% if page.lang == 'en' %}
+
+        <li class="has-submenu">
+          <a href="{{ '/en/laboratory/' | relative_url }}">Laboratory</a>
+          <ul class="submenu">
+            <li>
+              <a href="{{ '/en/laboratory/people/' | relative_url }}">People</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="{{ '/en/sample-submission/' | relative_url }}">Sample Submission</a>
+        </li>
+
+        <li>
+          <a href="{{ '/en/projects/' | relative_url }}">Projects</a>
+        </li>
+
+        <li>
+          <a href="{{ '/en/news/' | relative_url }}">News</a>
+        </li>
+
+        <li>
+          <a href="{{ '/en/publications/' | relative_url }}">Publications</a>
+        </li>
+
+        <li>
+          <a href="{{ '/en/contact/' | relative_url }}">Contact</a>
+        </li>
+
+      {% else %}
+
+        <li class="has-submenu">
+          <a href="{{ '/pt/laboratorio/' | relative_url }}">Laboratório</a>
+          <ul class="submenu">
+            <li>
+              <a href="{{ '/pt/laboratorio/pessoas/' | relative_url }}">Pessoas</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="{{ '/pt/submissao-de-amostras/' | relative_url }}">Submissão de Amostras</a>
+        </li>
+
+        <li>
+          <a href="{{ '/pt/projetos/' | relative_url }}">Projetos</a>
+        </li>
+
+        <li>
+          <a href="{{ '/pt/noticias/' | relative_url }}">Notícias</a>
+        </li>
+
+        <li>
+          <a href="{{ '/pt/publicacoes/' | relative_url }}">Publicações</a>
+        </li>
+
+        <li>
+          <a href="{{ '/pt/contato/' | relative_url }}">Contato</a>
+        </li>
+
+      {% endif %}
+    </ul>
+
+    <!-- Language switch -->
+    <div class="nav-lang" aria-label="Language switch">
+      {% if page.lang == 'en' %}
+        <a href="{{ page.alt_lang | default: '/pt/' | relative_url }}">PT</a>
+        <span aria-hidden="true">|</span>
+        <strong>EN</strong>
+      {% else %}
+        <strong>PT</strong>
+        <span aria-hidden="true">|</span>
+        <a href="{{ page.alt_lang | default: '/en/' | relative_url }}">EN</a>
+      {% endif %}
+    </div>
+
+  </div>
+</nav>
