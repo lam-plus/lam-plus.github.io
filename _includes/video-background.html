@@ -7,21 +7,43 @@
 
   <div class="hero-content">
     {% if page.lang == 'en' %}
-      <p class="hero-kicker">Welcome to</p>
-      <h1>LAM+</h1>
-      <p class="hero-subtitle">
-        High-resolution innovation for the investigation of sedimentary sequences.
-      </p>
+      <div class="hero-title-row">
+        <div class="hero-title-text">
+          <p class="hero-kicker">Welcome to</p>
+          <h1>LAM+</h1>
+          <p class="hero-subtitle">
+            High-resolution innovation for the investigation of sedimentary sequences.
+          </p>
+        </div>
+
+        <img
+          src="{{ '/assets/img/logo/logo-lamplus-transparent.png' | relative_url }}"
+          alt="LAM+ logo"
+          class="hero-inline-logo"
+        />
+      </div>
+
       <div class="hero-actions">
         <a class="hero-button primary" href="{{ '/en/laboratory/' | relative_url }}">Explore the Laboratory</a>
         <a class="hero-button secondary" href="{{ '/en/sample-submission/' | relative_url }}">Sample Submission</a>
       </div>
     {% else %}
-      <p class="hero-kicker">Bem-vindo ao</p>
-      <h1>LAM+</h1>
-      <p class="hero-subtitle">
-        Inovação em alta resolução para a investigação de sequências sedimentares.
-      </p>
+      <div class="hero-title-row">
+        <div class="hero-title-text">
+          <p class="hero-kicker">Bem-vindo ao</p>
+          <h1>LAM+</h1>
+          <p class="hero-subtitle">
+            Inovação em alta resolução para a investigação de sequências sedimentares.
+          </p>
+        </div>
+
+        <img
+          src="{{ '/assets/img/logo/logo-lamplus-transparent.png' | relative_url }}"
+          alt="Logo LAM+"
+          class="hero-inline-logo"
+        />
+      </div>
+
       <div class="hero-actions">
         <a class="hero-button primary" href="{{ '/pt/laboratorio/' | relative_url }}">Conheça o Laboratório</a>
         <a class="hero-button secondary" href="{{ '/pt/submissao-de-amostras/' | relative_url }}">Submissão de Amostras</a>
