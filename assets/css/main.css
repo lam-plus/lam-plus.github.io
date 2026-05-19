@@ -1274,4 +1274,15 @@ a:hover {
     align-items: flex-start;
     }
 
+  .hero-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .hero-inline-logo {
+    max-height: 3.5rem;
+    max-width: 170px;
+  }
+
 }
