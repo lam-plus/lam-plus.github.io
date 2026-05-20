@@ -25,5 +25,18 @@ alt_lang: /en/contact/
 		<p>Cada demanda será avaliada considerando o tipo de material, o estado de preservação da amostra, os objetivos científicos ou técnicos do estudo, a disponibilidade operacional dos equipamentos e a eventual necessidade de desenvolvimento metodológico específico.</p>
 
 		<p>O LAM+ atua como uma plataforma multiusuária voltada à inovação em geociências, combinando imageamento hiperespectral, XRF core scanning, radiografia sedimentar, MEV-EDS e inteligência artificial aplicada a sequências sedimentares.</p>
+
+		<div class="contact-address">
+			<h3>Endereço</h3>
+			<address>
+				<strong>LAM+ — Laboratório de Análise Multiespectral e Inteligência Artificial para Sedimentos</strong><br>
+				Instituto de Geociências — Bloco P, térreo<br>
+				Universidade Federal Fluminense — Campus da Praia Vermelha<br>
+				Av. Gal. Milton Tavares de Souza, s/nº<br>
+				Boa Viagem, Niterói — RJ<br>
+				CEP 24210-346<br>
+				Brasil
+			</address>
+		</div>
 	</div>
 </section>
