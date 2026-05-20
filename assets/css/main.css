@@ -866,6 +866,21 @@ a:hover {
   box-shadow: 0 10px 25px rgba(9, 48, 39, 0.08);
 }
 
+.applications-figure {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+.applications-figure img {
+  width: 100%;
+  max-width: 860px;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+}
+
 .applications-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

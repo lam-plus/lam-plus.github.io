@@ -145,15 +145,8 @@ alt_lang: /en/laboratory/
 
 	<section class="lab-section">
 		<h2>Aplicações</h2>
-		<div class="applications-grid">
-			<div>Paleoceanografia e paleoclima</div>
-			<div>Sedimentologia de alta resolução</div>
-			<div>Geoquímica sedimentar</div>
-			<div>Cronoestratigrafia e micropaleontologia</div>
-			<div>Contaminação ambiental</div>
-			<div>Correlação estratigráfica</div>
-			<div>Eventos extremos registrados em sedimentos</div>
-
+		<div class="applications-figure">
+			<img src="{{ site.baseurl }}/assets/img/equipamentos/01_aplicacoes.png" alt="Aplicações científicas e técnicas do LAM+" />
 		</div>
 	</section>
 
