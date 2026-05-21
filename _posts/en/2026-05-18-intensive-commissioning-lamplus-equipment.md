@@ -7,8 +7,8 @@ category: news
 ref: commissioning-2026-hsi-xrf-mev
 excerpt: "May and potentially June 2026 are dedicated to intensive commissioning at LAM+, starting with HSI, followed by the Avaatech XRF Core Scanner and then SEM/EDS."
 image: "/assets/img/hero/commissioning.png"
-permalink: /en/news/2026/05/18/intensive-commissioning-lamplus-equipment/
-alt_lang: /pt/noticias/2026/05/18/comissionamento-intensivo-equipamentos-lamplus/
+permalink: /en/news/2026-05-18-intensive-commissioning-lamplus-equipment/
+alt_lang: /pt/noticias/2026-05-18-comissionamento-intensivo-equipamentos-lamplus/
 ---
 
 <article class="news-post">
