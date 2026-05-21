@@ -74,6 +74,14 @@ alt_lang: /pt/laboratorio/pessoas/
 		return link;
 	}
 
+	function buildEmailLink(email) {
+		if (!email || typeof email !== "string" || !email.trim()) {
+			return null;
+		}
+		var normalized = email.trim();
+		return buildLink("Email", "mailto:" + normalized);
+	}
+
 	function createMemberCard(person) {
 		var card = document.createElement("article");
 		card.className = "team-card";
@@ -142,7 +150,8 @@ alt_lang: /pt/laboratorio/pessoas/
 			buildLink("Lattes", links.lattes),
 			buildLink("ORCID", links.orcid),
 			buildLink("GitHub", links.github),
-			buildLink("LinkedIn", links.linkedin)
+			buildLink("LinkedIn", links.linkedin),
+			buildEmailLink(links.email)
 		].filter(Boolean);
 
 		if (linkItems.length) {
