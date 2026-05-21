@@ -1052,6 +1052,22 @@ a:hover {
   background: #eef6f2;
 }
 
+.team-email {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  color: var(--lam-muted);
+}
+
+.email-link {
+  color: inherit;
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+.email-link:hover {
+  text-decoration-thickness: 2px;
+}
+
 .team-loading,
 .team-empty {
   margin: 0;

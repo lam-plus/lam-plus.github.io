@@ -79,7 +79,19 @@ alt_lang: /pt/laboratorio/pessoas/
 			return null;
 		}
 		var normalized = email.trim();
-		return buildLink("Email", "mailto:" + normalized);
+		var emailRow = document.createElement("p");
+		emailRow.className = "team-email";
+
+		var emailLabel = document.createTextNode("Email: ");
+		emailRow.appendChild(emailLabel);
+
+		var emailAnchor = document.createElement("a");
+		emailAnchor.className = "email-link";
+		emailAnchor.href = "mailto:" + normalized;
+		emailAnchor.textContent = normalized;
+		emailRow.appendChild(emailAnchor);
+
+		return emailRow;
 	}
 
 	function createMemberCard(person) {
@@ -143,6 +155,7 @@ alt_lang: /pt/laboratorio/pessoas/
 		}
 
 		var links = person.links && typeof person.links === "object" ? person.links : {};
+		var emailElement = buildEmailLink(links.email);
 		var linksRow = document.createElement("div");
 		linksRow.className = "team-links";
 
@@ -150,8 +163,7 @@ alt_lang: /pt/laboratorio/pessoas/
 			buildLink("Lattes", links.lattes),
 			buildLink("ORCID", links.orcid),
 			buildLink("GitHub", links.github),
-			buildLink("LinkedIn", links.linkedin),
-			buildEmailLink(links.email)
+			buildLink("LinkedIn", links.linkedin)
 		].filter(Boolean);
 
 		if (linkItems.length) {
@@ -159,6 +171,10 @@ alt_lang: /pt/laboratorio/pessoas/
 				linksRow.appendChild(linkEl);
 			});
 			body.appendChild(linksRow);
+		}
+
+		if (emailElement) {
+			body.appendChild(emailElement);
 		}
 
 		card.appendChild(media);
