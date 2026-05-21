@@ -62,6 +62,7 @@ people:
       orcid: https://orcid.org/0000-0003-1267-6190
       github: ""
       linkedin: ""
+      email: "ana_albuquerque@id.uff.br"
     active: true
 
   - id: igor-venancio
@@ -88,6 +89,7 @@ people:
       orcid: https://orcid.org/0000-0003-3118-4247
       github: ""
       linkedin: ""
+      email: "ivenancio@id.uff.br"
     active: true
 
   - id: andre-belem
@@ -111,6 +113,7 @@ people:
       orcid: 'https://orcid.org/0000-0002-8865-6180'
       github: https://github.com/andrebelem
       linkedin: 'https://www.linkedin.com/in/andre-belem/'
+      email: "andrebelem@id.uff.br"
     active: true
     notes: Entry added manually because Andre does not appear in the exported spreadsheet.
 
