@@ -8,6 +8,10 @@ _site/
 .bundle/
 vendor/
 
+# Local Python virtual environments
+.venv/
+.venv-1/
+
 # Local reference files
 _reference/
 

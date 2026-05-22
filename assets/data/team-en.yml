@@ -117,6 +117,29 @@ people:
     active: true
     notes: Entry added manually because Andre does not appear in the exported spreadsheet.
 
+  - id: arthur-ayres-neto
+    name: Arthur Ayres Neto
+    group: coordination
+    order: 4
+    role: LAM+ Geophysics Coordinator
+    affiliation: Universidade Federal Fluminense - Department of Geology and Geophysics
+    description: Works as the LAM+ Geophysics coordinator, with an interface in applied geophysics and support for laboratory activities.
+    areas:
+      - Geophysics
+      - Instrumentation / Equipment Operation
+      - Other
+    keywords:
+      - Geophysics
+      - Coordination
+    photo: /assets/img/team/arthur-ayres.png
+    links:
+      lattes: http://lattes.cnpq.br/8355947667910941
+      orcid: https://orcid.org/0000-0002-2982-245X
+      github: ""
+      linkedin: ""
+      email: "aayres@id.uff.br"
+    active: true
+
   - id: leandro-candeia
     name: Leandro Candeia
     group: technical_staff
