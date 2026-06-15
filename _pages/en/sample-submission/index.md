@@ -85,7 +85,7 @@ alt_lang: /pt/submissao-de-amostras/
     <p>To start the process, please fill in the sample registration form:</p>
     <a
       class="button-link submission-button"
-      href="https://forms.gle/87G18ALxJ6aqz6Fq8"
+      href="https://forms.gle/WSLWCLtTitoCB21v9"
       target="_blank"
       rel="noopener noreferrer"
     >Register sample</a>
