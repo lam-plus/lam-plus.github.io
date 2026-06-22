@@ -21,9 +21,5 @@ alt_lang: /en/news/2026-06-22-hyperspectral-imaging-mini-course-announcement/
 		<img src="{{ page.image | relative_url }}" alt="Divulgação do minicurso de imageamento hiperespectral no LAM+" />
 	</figure>
 
-	<h2>Versão curta (até 280 caracteres)</h2>
-	<p>Espectroscopia pode revelar o que nos sedimentos? Minicurso "Imageamento Hiperespectral: Fundamentos Teóricos e Aplicações em Registros Sedimentares", com Milena Kury. 15/07/2026, 14h, auditório Marcus Gorini (IGEO-UFF, Praia Vermelha, Niterói-RJ). Promoção: LAM+.</p>
-
-	<h2>Versão longa (até 500 caracteres)</h2>
-	<p>Como a espectroscopia ajuda a ler a história registrada nos sedimentos? Participe do minicurso "Imageamento Hiperespectral: Fundamentos Teóricos e Aplicações em Registros Sedimentares", com Milena Kury, em 15/07/2026, às 14h00, no auditório Marcus Gorini, IGEO-UFF, Campus Praia Vermelha, Niterói, RJ. O encontro mostra como a espectroscopia revela informações em registros sedimentares. Promoção: LAM+ (Laboratório de Análise Multiespectral e Inteligência Artificial para Sedimentos).</p>
+	<p>Como a espectroscopia ajuda a ler a história registrada nos sedimentos? Participe do minicurso "Imageamento Hiperespectral: Fundamentos Teóricos e Aplicações em Registros Sedimentares", com Milena Kury, em 15/07/2026, às 14h00, no auditório Marcus Gorini, IGEO-UFF, Campus Praia Vermelha, Niterói, RJ. O encontro irá mostrar como a espectroscopia revela informações em registros sedimentares. Promoção: LAM+ (Laboratório de Análise Multiespectral e Inteligência Artificial para Sedimentos).</p>
 </article>
