@@ -62,7 +62,8 @@ people:
     lattes: http://lattes.cnpq.br/4016720596063058
     orcid: https://orcid.org/0000-0003-1267-6190
     github: ''
-    linkedin: ''
+    linkedin: ' https://www.linkedin.com/in/ana-luiza-albuquerque-1b759571/'
+    email: 'ana_albuquerque@id.uff.br'
   active: true
 - id: igor-venancio
   name: Igor Venancio
@@ -88,6 +89,7 @@ people:
     orcid: https://orcid.org/0000-0003-3118-4247
     github: ''
     linkedin: ''
+    email: 'ivenancio@id.uff.br'
   active: true
 - id: andre-belem
   name: André L. Belém
@@ -111,8 +113,31 @@ people:
     orcid: 'https://orcid.org/0000-0002-8865-6180'
     github: https://github.com/andrebelem
     linkedin: 'https://www.linkedin.com/in/andre-belem/'
+    email: 'andrebelem@id.uff.br'
   active: true
   notes: Entrada adicionada manualmente porque André não aparece na planilha exportada.
+- id: arthur-ayres-neto
+  name: Arthur Ayres Neto
+  group: coordination
+  order: 4
+  role: Coordenador da Geofísica do LAM+
+  affiliation: Universidade Federal Fluminense - Departamento de Geologia e Geofísica
+  description: Atua como coordenador da Geofísica do LAM+, com interface em geofísica aplicada e apoio às atividades do laboratório.
+  areas:
+  - Geofísica
+  - Instrumentação / Operação de Equipamentos
+  - Outro
+  keywords:
+  - Geofísica
+  - Coordenação
+  photo: /assets/img/team/arthur-ayres.png
+  links:
+    lattes: http://lattes.cnpq.br/8355947667910941
+    orcid: https://orcid.org/0000-0002-2982-245X
+    github: ''
+    linkedin: ''
+    email: 'aayres@id.uff.br'
+  active: true
 - id: leandro-candeia
   name: Leandro Candeia
   group: technical_staff

@@ -74,6 +74,26 @@ alt_lang: /en/laboratory/people/
 		return link;
 	}
 
+	function buildEmailLink(email) {
+		if (!email || typeof email !== "string" || !email.trim()) {
+			return null;
+		}
+		var normalized = email.trim();
+		var emailRow = document.createElement("p");
+		emailRow.className = "team-email";
+
+		var emailLabel = document.createTextNode("E-mail: ");
+		emailRow.appendChild(emailLabel);
+
+		var emailAnchor = document.createElement("a");
+		emailAnchor.className = "email-link";
+		emailAnchor.href = "mailto:" + normalized;
+		emailAnchor.textContent = normalized;
+		emailRow.appendChild(emailAnchor);
+
+		return emailRow;
+	}
+
 	function createMemberCard(person) {
 		var card = document.createElement("article");
 		card.className = "team-card";
@@ -135,6 +155,7 @@ alt_lang: /en/laboratory/people/
 		}
 
 		var links = person.links && typeof person.links === "object" ? person.links : {};
+		var emailElement = buildEmailLink(links.email);
 		var linksRow = document.createElement("div");
 		linksRow.className = "team-links";
 
@@ -150,6 +171,10 @@ alt_lang: /en/laboratory/people/
 				linksRow.appendChild(linkEl);
 			});
 			body.appendChild(linksRow);
+		}
+
+		if (emailElement) {
+			body.appendChild(emailElement);
 		}
 
 		card.appendChild(media);

@@ -25,5 +25,17 @@ alt_lang: /pt/contato/
 		<p>Each request is evaluated according to material type, sample preservation state, scientific or technical objectives, equipment availability and any need for specific methodological development.</p>
 
 		<p>LAM+ operates as a multi-user platform focused on innovation in geosciences, combining hyperspectral imaging, XRF core scanning, sedimentary radiography, SEM-EDS and artificial intelligence applied to sedimentary sequences.</p>
+
+		<div class="contact-address">
+			<h3>Address</h3>
+			<address>
+				<strong>LAM+ — Laboratory for Multispectral Analysis and Artificial Intelligence for Sediments</strong><br>
+				Institute of Geosciences — Block P, ground floor<br>
+				Fluminense Federal University — Praia Vermelha Campus<br>
+				Av. Gal. Milton Tavares de Souza, s/n<br>
+				Boa Viagem, Niteroi — RJ, Brazil<br>
+				ZIP Code 24210-346
+			</address>
+		</div>
 	</div>
 </section>

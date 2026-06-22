@@ -141,15 +141,8 @@ alt_lang: /pt/laboratorio/
 
 	<section class="lab-section">
 		<h2>Applications</h2>
-		<div class="applications-grid">
-			<div>Palaeoceanography and palaeoclimate</div>
-			<div>High-resolution sedimentology</div>
-			<div>Sedimentary geochemistry</div>
-			<div>Chronostratigraphy and micropalaeontology</div>
-			<div>Environmental contamination</div>
-			<div>Stratigraphic correlation</div>
-			<div>Extreme events recorded in sediments</div>
-
+		<div class="applications-figure">
+			<img src="{{ site.baseurl }}/assets/img/equipamentos/01_applications.png" alt="LAM+ scientific and technical applications" />
 		</div>
 	</section>
 
