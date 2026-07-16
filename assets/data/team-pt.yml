@@ -19,22 +19,22 @@ metadata:
 groups:
 - id: interinstitutional_steering_committee
   title: Comitê Gestor Interinstitucional
-  order: 1
+  order: 7
 - id: coordination
   title: Coordenação
-  order: 2
+  order: 1
 - id: technical_staff
   title: Equipe técnica e bolsistas técnicos
-  order: 3
+  order: 2
 - id: associate_researchers
   title: Pesquisadores associados
-  order: 4
+  order: 3
 - id: undergraduate
   title: Iniciação científica
-  order: 5
+  order: 4
 - id: collaborators
   title: Colaboradores
-  order: 6
+  order: 5
 people:
 - id: ana-luiza-s-albuquerque
   name: Ana Luiza S. Albuquerque

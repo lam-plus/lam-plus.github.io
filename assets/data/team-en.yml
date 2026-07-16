@@ -17,22 +17,22 @@ metadata:
 groups:
   - id: interinstitutional_steering_committee
     title: Interinstitutional Steering Committee
-    order: 1
+    order: 7
   - id: coordination
     title: Coordination
-    order: 2
+    order: 1
   - id: technical_staff
     title: Technical Staff and Technical Fellows
-    order: 3
+    order: 2
   - id: associate_researchers
     title: Associate Researchers
-    order: 4
+    order: 3
   - id: undergraduate
     title: Undergraduate Researchers
-    order: 5
+    order: 4
   - id: collaborators
     title: Collaborators
-    order: 6
+    order: 5
 
 people:
   - id: ana-luiza-s-albuquerque
