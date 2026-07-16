@@ -647,8 +647,16 @@ a:hover {
 }
 
 .news-card-meta h2 {
-  margin-bottom: 0.35rem;
-  font-size: 1.15rem;
+  margin: 0 0 0.35rem;
+  font-size: clamp(1rem, 1.2vw, 1.1rem);
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.news-card-meta h2 a {
+  display: block;
 }
 
 .news-card-date {
