@@ -626,21 +626,20 @@ a:hover {
 }
 
 .news-card-header {
-  display: grid;
-  grid-template-columns: 120px minmax(0, 1fr);
-  gap: 0.85rem;
-  align-items: start;
+  display: block;
   margin-bottom: 0.65rem;
 }
 
 .news-card-thumb {
   display: block;
-  width: 120px;
+  width: 100%;
+  margin-bottom: 0.6rem;
 }
 
 .news-card-image {
-  width: 120px;
-  height: 84px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
   display: block;
@@ -1252,20 +1251,6 @@ a:hover {
   .lab-highlights,
   .applications-grid {
     grid-template-columns: 1fr;
-  }
-
-  .news-card-header {
-    grid-template-columns: 96px minmax(0, 1fr);
-    gap: 0.65rem;
-  }
-
-  .news-card-thumb {
-    width: 96px;
-  }
-
-  .news-card-image {
-    width: 96px;
-    height: 72px;
   }
 
   .lab-hero .lead {
