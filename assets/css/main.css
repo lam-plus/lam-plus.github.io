@@ -1129,6 +1129,10 @@ a:hover {
   height: auto;
 }
 
+.site-footer-logo--small {
+  max-width: 110px;
+}
+
 /* Responsive */
 
 @media (max-width: 960px) {

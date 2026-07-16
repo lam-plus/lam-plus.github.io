@@ -346,7 +346,7 @@ people:
       - Continental Margins
     photo: /assets/img/logo/logo-uff.png
     links:
-      lattes: ""
+      lattes: 'http://lattes.cnpq.br/2192755725741120'
       orcid: ""
       github: ""
       linkedin: ""
@@ -374,7 +374,7 @@ people:
       - Magnetic Mineralogy
     photo: /assets/img/logo/logo-on.png
     links:
-      lattes: ""
+      lattes: 'http://lattes.cnpq.br/9874436698730620'
       orcid: ""
       github: ""
       linkedin: ""
@@ -402,7 +402,7 @@ people:
       - Quaternary Sedimentation
     photo: /assets/img/logo/logo-uerj.png
     links:
-      lattes: ""
+      lattes: 'http://lattes.cnpq.br/8212550476765235'
       orcid: ""
       github: ""
       linkedin: ""
