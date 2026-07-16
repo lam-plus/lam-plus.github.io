@@ -241,104 +241,162 @@ people:
     linkedin: ''
   active: true
 - id: milena-kury
-  name: Milena Kury
+  name: Milena Souza Kury
   group: associate_researchers
   order: 1
-  role: ''
-  affiliation: ''
-  description: ''
-  areas: []
-  keywords: []
-  photo: /assets/img/team/user.png
+  role: Pesquisadora de pós-doutorado
+  affiliation: Universidade Federal Fluminense — Programa de Pós-Graduação em Dinâmica dos Oceanos e da Terra
+  description: Pesquisadora de pós-doutorado na UFF e doutora em Geociências pelo Institut National de la Recherche
+    Scientifique, Canadá. Estuda sedimentos lacustres, com foco em geoquímica orgânica, imageamento hiperespectral
+    e sedimentologia aplicados à reconstrução de mudanças paleoclimáticas.
+  areas:
+  - Imageamento Hiperespectral
+  - Sedimentologia
+  - Geoquímica
+  - Paleoclimatologia
+  - Inteligência Artificial e Machine Learning
+  keywords:
+  - Paleolimnologia
+  - Imageamento Hiperespectral
+  - Geoquímica Orgânica
+  photo: /assets/img/team/milena-kury.jpg
   links:
-    lattes: ''
-    orcid: ''
-    github: ''
+    lattes: https://lattes.cnpq.br/7264520448205898
+    orcid: https://orcid.org/0000-0003-0501-9440
+    github: https://github.com/Mskury
     linkedin: ''
-    email: ''
+    email: milenakury@id.uff.br
   active: true
 - id: cristian-guacaneme
-  name: Cristian Guacaneme
+  name: Cristhian Camilo Guacaneme Mora
   group: associate_researchers
   order: 2
-  role: ''
-  affiliation: ''
-  description: ''
-  areas: []
-  keywords: []
-  photo: /assets/img/team/user.png
+  role: Pesquisador de pós-doutorado
+  affiliation: Universidade Federal Fluminense — Departamento de Geologia e Geofísica
+  description: Pesquisador de pós-doutorado na UFF, atua em estratigrafia isotópica, geoquímica e petrografia, com
+    aplicação de ferramentas de inteligência artificial à análise de dados geocientíficos.
+  areas:
+  - Imageamento Hiperespectral
+  - Sedimentologia
+  - Geoquímica
+  keywords:
+  - Geoquímica
+  - Estratigrafia
+  - Petrografia
+  photo: /assets/img/team/cristhian-guacaneme.jpg
   links:
-    lattes: ''
-    orcid: ''
+    lattes: https://lattes.cnpq.br/1484203700116445
+    orcid: https://orcid.org/0000-0003-4681-4803
     github: ''
     linkedin: ''
-    email: ''
+    email: grauwacka@gmail.com
   active: true
 - id: joao-marcelo-ballalai
   name: João Marcelo Ballalai
   group: associate_researchers
   order: 3
-  role: ''
-  affiliation: ''
-  description: ''
-  areas: []
-  keywords: []
+  role: Pesquisador de pós-doutorado
+  affiliation: Universidade Federal Fluminense — Programa de Pós-Graduação em Geociências (Geoquímica)
+  description: Pesquisador de pós-doutorado na UFF e doutor em Geociências pela UFF e pela Université de Bretagne Occidentale,
+    França. Atua em sedimentologia, paleoceanografia, paleoclimatologia e geoquímica marinha, integrando análises multiproxy,
+    XRF, MSCL, imageamento hiperespectral, micropaleontologia, modelagem cronológica bayesiana e cicloestratigrafia.
+  areas:
+  - XRF Core Scanning
+  - MEV-EDS
+  - Sedimentologia
+  - Geoquímica
+  - Paleoclimatologia
+  - Instrumentação e operação de equipamentos
+  keywords:
+  - Paleoceanografia
+  - Paleoclimatologia
+  - Geoquímica Marinha
   photo: /assets/img/team/user.png
   links:
-    lattes: ''
-    orcid: ''
-    github: ''
+    lattes: https://lattes.cnpq.br/7271073203474409
+    orcid: https://orcid.org/0000-0002-8896-6816
+    github: https://github.com/JMBallalai
     linkedin: ''
-    email: ''
+    email: joaoballalai@id.uff.br
   active: true
 - id: cleverson-guizan-silva
   name: Cleverson Guizan Silva
   group: interinstitutional_steering_committee
   order: 1
-  role: ''
-  affiliation: ''
-  description: ''
-  areas: []
-  keywords: []
-  photo: /assets/img/team/institucional.png
+  role: Professor titular
+  affiliation: Universidade Federal Fluminense — Departamento de Geologia e Geofísica
+  description: Professor titular da Universidade Federal Fluminense, atua na graduação em Geofísica e no Programa de
+    Pós-Graduação em Dinâmica dos Oceanos e da Terra. Desenvolve pesquisas em geologia e geofísica marinha, estratigrafia
+    sísmica, sedimentação e evolução de margens continentais.
+  areas:
+  - Geologia Marinha
+  - Geofísica Marinha
+  - Estratigrafia Sísmica
+  - Sedimentologia
+  keywords:
+  - Geologia Marinha
+  - Estratigrafia Sísmica
+  - Margens Continentais
+  photo: /assets/img/logo/logo-uff.png
   links:
     lattes: ''
     orcid: ''
     github: ''
     linkedin: ''
-    email: ''
+    email: cguizan@id.uff.br
   active: true
 - id: daniel-ribeiro-franco
   name: Daniel Ribeiro Franco
   group: interinstitutional_steering_committee
   order: 2
-  role: ''
-  affiliation: ''
-  description: ''
-  areas: []
-  keywords: []
-  photo: /assets/img/team/institucional.png
+  role: Pesquisador e professor permanente
+  affiliation: Observatório Nacional — Programa de Pós-Graduação em Geofísica
+  description: Pesquisador do Observatório Nacional e professor permanente do Programa de Pós-Graduação em Geofísica.
+    Atua em cicloestratigrafia, paleomagnetismo e mineralogia magnética, investigando a relação entre ciclos orbitais,
+    variabilidade climática e registros sedimentares.
+  areas:
+  - Cicloestratigrafia
+  - Paleomagnetismo
+  - Mineralogia Magnética
+  - Geofísica
+  - Paleoclimatologia
+  keywords:
+  - Cicloestratigrafia
+  - Paleomagnetismo
+  - Mineralogia Magnética
+  photo: /assets/img/logo/logo-on.png
   links:
     lattes: ''
     orcid: ''
     github: ''
     linkedin: ''
-    email: ''
+    email: drfranco@on.br
   active: true
 - id: antonio-tadeu-dos-reis
   name: Antonio Tadeu dos Reis
   group: interinstitutional_steering_committee
   order: 3
-  role: ''
-  affiliation: ''
-  description: ''
-  areas: []
-  keywords: []
-  photo: /assets/img/team/institucional.png
+  role: Professor
+  affiliation: Universidade do Estado do Rio de Janeiro — Faculdade de Oceanografia, Departamento de Oceanografia
+    Geológica
+  description: Professor da Faculdade de Oceanografia da Universidade do Estado do Rio de Janeiro, com formação em
+    Geologia, Geofísica, Tectônica e Sedimentação. Atua em oceanografia geológica, estratigrafia sísmica, evolução
+    sedimentar de margens continentais e investigação de sistemas sedimentares quaternários.
+  areas:
+  - Oceanografia Geológica
+  - Estratigrafia Sísmica
+  - Geofísica Marinha
+  - Sedimentologia
+  - Tectônica
+  keywords:
+  - Estratigrafia Sísmica
+  - Margens Continentais
+  - Sedimentação Quaternária
+  photo: /assets/img/logo/logo-uerj.png
   links:
     lattes: ''
     orcid: ''
     github: ''
     linkedin: ''
-    email: ''
+    email: tadeu.reis@gmail.com
   active: true

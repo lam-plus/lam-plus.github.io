@@ -245,109 +245,166 @@ people:
     active: true
 
   - id: milena-kury
-    name: Milena Kury
+    name: Milena Souza Kury
     group: associate_researchers
     order: 1
-    role: ""
-    affiliation: ""
-    description: ""
-    areas: []
-    keywords: []
-    photo: /assets/img/team/user.png
+    role: Postdoctoral researcher
+    affiliation: Fluminense Federal University — Graduate Program in Ocean and Earth Dynamics
+    description: Postdoctoral researcher at UFF with a PhD in Earth Sciences from the Institut National de la Recherche
+      Scientifique, Canada. She studies lake sediments, focusing on organic geochemistry, hyperspectral imaging,
+      and sedimentology applied to the reconstruction of paleoclimatic changes.
+    areas:
+      - Hyperspectral Imaging
+      - Sedimentology
+      - Geochemistry
+      - Paleoclimatology
+      - Artificial Intelligence and Machine Learning
+    keywords:
+      - Paleolimnology
+      - Hyperspectral Imaging
+      - Organic Geochemistry
+    photo: /assets/img/team/milena-kury.jpg
     links:
-      lattes: ""
-      orcid: ""
-      github: ""
+      lattes: https://lattes.cnpq.br/7264520448205898
+      orcid: https://orcid.org/0000-0003-0501-9440
+      github: https://github.com/Mskury
       linkedin: ""
-      email: ""
+      email: milenakury@id.uff.br
     active: true
 
   - id: cristian-guacaneme
-    name: Cristian Guacaneme
+    name: Cristhian Camilo Guacaneme Mora
     group: associate_researchers
     order: 2
-    role: ""
-    affiliation: ""
-    description: ""
-    areas: []
-    keywords: []
-    photo: /assets/img/team/user.png
+    role: Postdoctoral researcher
+    affiliation: Fluminense Federal University — Department of Geology and Geophysics
+    description: Postdoctoral researcher at UFF working in isotope stratigraphy, geochemistry, and petrography, with
+      applications of artificial intelligence tools to geoscientific data analysis.
+    areas:
+      - Hyperspectral Imaging
+      - Sedimentology
+      - Geochemistry
+    keywords:
+      - Geochemistry
+      - Stratigraphy
+      - Petrography
+    photo: /assets/img/team/cristhian-guacaneme.jpg
     links:
-      lattes: ""
-      orcid: ""
+      lattes: https://lattes.cnpq.br/1484203700116445
+      orcid: https://orcid.org/0000-0003-4681-4803
       github: ""
       linkedin: ""
-      email: ""
+      email: grauwacka@gmail.com
     active: true
 
   - id: joao-marcelo-ballalai
     name: João Marcelo Ballalai
     group: associate_researchers
     order: 3
-    role: ""
-    affiliation: ""
-    description: ""
-    areas: []
-    keywords: []
+    role: Postdoctoral researcher
+    affiliation: Fluminense Federal University — Graduate Program in Geosciences (Geochemistry)
+    description: Postdoctoral researcher at UFF with a PhD in Geosciences from UFF and Université de Bretagne Occidentale,
+      France. He works in sedimentology, paleoceanography, paleoclimatology, and marine geochemistry, integrating multiproxy
+      analyses, XRF, MSCL, hyperspectral imaging, micropaleontology, Bayesian age modelling, and cyclostratigraphy.
+    areas:
+      - XRF Core Scanning
+      - SEM-EDS
+      - Sedimentology
+      - Geochemistry
+      - Paleoclimatology
+      - Instrumentation / Equipment Operation
+    keywords:
+      - Paleoceanography
+      - Paleoclimatology
+      - Marine Geochemistry
     photo: /assets/img/team/user.png
     links:
-      lattes: ""
-      orcid: ""
-      github: ""
+      lattes: https://lattes.cnpq.br/7271073203474409
+      orcid: https://orcid.org/0000-0002-8896-6816
+      github: https://github.com/JMBallalai
       linkedin: ""
-      email: ""
+      email: joaoballalai@id.uff.br
     active: true
 
   - id: cleverson-guizan-silva
     name: Cleverson Guizan Silva
     group: interinstitutional_steering_committee
     order: 1
-    role: ""
-    affiliation: ""
-    description: ""
-    areas: []
-    keywords: []
-    photo: /assets/img/team/institucional.png
+    role: Full professor
+    affiliation: Fluminense Federal University — Department of Geology and Geophysics
+    description: Full professor at Fluminense Federal University, working in the undergraduate Geophysics program and
+      the Graduate Program in Ocean and Earth Dynamics. His research focuses on marine geology and geophysics,
+      seismic stratigraphy, sedimentation, and the evolution of continental margins.
+    areas:
+      - Marine Geology
+      - Marine Geophysics
+      - Seismic Stratigraphy
+      - Sedimentology
+    keywords:
+      - Marine Geology
+      - Seismic Stratigraphy
+      - Continental Margins
+    photo: /assets/img/logo/logo-uff.png
     links:
       lattes: ""
       orcid: ""
       github: ""
       linkedin: ""
-      email: ""
+      email: cguizan@id.uff.br
     active: true
 
   - id: daniel-ribeiro-franco
     name: Daniel Ribeiro Franco
     group: interinstitutional_steering_committee
     order: 2
-    role: ""
-    affiliation: ""
-    description: ""
-    areas: []
-    keywords: []
-    photo: /assets/img/team/institucional.png
+    role: Researcher and permanent faculty member
+    affiliation: National Observatory — Graduate Program in Geophysics
+    description: Researcher at the National Observatory and permanent faculty member of the Graduate Program in
+      Geophysics. His research focuses on cyclostratigraphy, paleomagnetism, and magnetic mineralogy, investigating
+      relationships among orbital cycles, climate variability, and sedimentary records.
+    areas:
+      - Cyclostratigraphy
+      - Paleomagnetism
+      - Magnetic Mineralogy
+      - Geophysics
+      - Paleoclimatology
+    keywords:
+      - Cyclostratigraphy
+      - Paleomagnetism
+      - Magnetic Mineralogy
+    photo: /assets/img/logo/logo-on.png
     links:
       lattes: ""
       orcid: ""
       github: ""
       linkedin: ""
-      email: ""
+      email: drfranco@on.br
     active: true
 
   - id: antonio-tadeu-dos-reis
     name: Antonio Tadeu dos Reis
     group: interinstitutional_steering_committee
     order: 3
-    role: ""
-    affiliation: ""
-    description: ""
-    areas: []
-    keywords: []
-    photo: /assets/img/team/institucional.png
+    role: Professor
+    affiliation: Rio de Janeiro State University — Faculty of Oceanography, Department of Geological Oceanography
+    description: Professor at the Faculty of Oceanography of Rio de Janeiro State University, with a background in
+      geology, geophysics, tectonics, and sedimentation. His research focuses on geological oceanography, seismic
+      stratigraphy, the sedimentary evolution of continental margins, and Quaternary sedimentary systems.
+    areas:
+      - Geological Oceanography
+      - Seismic Stratigraphy
+      - Marine Geophysics
+      - Sedimentology
+      - Tectonics
+    keywords:
+      - Seismic Stratigraphy
+      - Continental Margins
+      - Quaternary Sedimentation
+    photo: /assets/img/logo/logo-uerj.png
     links:
       lattes: ""
       orcid: ""
       github: ""
       linkedin: ""
-      email: ""
+      email: tadeu.reis@gmail.com
     active: true
