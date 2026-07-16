@@ -15,27 +15,24 @@ metadata:
   privacy_note: Do not include phone, WhatsApp, personal or institutional email, or other sensitive personal data in this public file.
 
 groups:
+  - id: interinstitutional_steering_committee
+    title: Interinstitutional Steering Committee
+    order: 1
   - id: coordination
     title: Coordination
-    order: 1
+    order: 2
   - id: technical_staff
     title: Technical Staff and Technical Fellows
-    order: 2
-  - id: postdoc
-    title: Postdoctoral Researchers
     order: 3
-  - id: phd
-    title: PhD Students
+  - id: associate_researchers
+    title: Associate Researchers
     order: 4
-  - id: master
-    title: MSc Students
-    order: 5
   - id: undergraduate
     title: Undergraduate Researchers
-    order: 6
+    order: 5
   - id: collaborators
     title: Collaborators
-    order: 7
+    order: 6
 
 people:
   - id: ana-luiza-s-albuquerque
@@ -245,4 +242,112 @@ people:
       orcid: https://orcid.org/0009-0003-3975-5849
       github: https://github.com/LissCruz
       linkedin: ""
+    active: true
+
+  - id: milena-kury
+    name: Milena Kury
+    group: associate_researchers
+    order: 1
+    role: ""
+    affiliation: ""
+    description: ""
+    areas: []
+    keywords: []
+    photo: /assets/img/team/user.png
+    links:
+      lattes: ""
+      orcid: ""
+      github: ""
+      linkedin: ""
+      email: ""
+    active: true
+
+  - id: cristian-guacaneme
+    name: Cristian Guacaneme
+    group: associate_researchers
+    order: 2
+    role: ""
+    affiliation: ""
+    description: ""
+    areas: []
+    keywords: []
+    photo: /assets/img/team/user.png
+    links:
+      lattes: ""
+      orcid: ""
+      github: ""
+      linkedin: ""
+      email: ""
+    active: true
+
+  - id: joao-marcelo-ballalai
+    name: João Marcelo Ballalai
+    group: associate_researchers
+    order: 3
+    role: ""
+    affiliation: ""
+    description: ""
+    areas: []
+    keywords: []
+    photo: /assets/img/team/user.png
+    links:
+      lattes: ""
+      orcid: ""
+      github: ""
+      linkedin: ""
+      email: ""
+    active: true
+
+  - id: cleverson-guizan-silva
+    name: Cleverson Guizan Silva
+    group: interinstitutional_steering_committee
+    order: 1
+    role: ""
+    affiliation: ""
+    description: ""
+    areas: []
+    keywords: []
+    photo: /assets/img/team/institucional.png
+    links:
+      lattes: ""
+      orcid: ""
+      github: ""
+      linkedin: ""
+      email: ""
+    active: true
+
+  - id: daniel-ribeiro-franco
+    name: Daniel Ribeiro Franco
+    group: interinstitutional_steering_committee
+    order: 2
+    role: ""
+    affiliation: ""
+    description: ""
+    areas: []
+    keywords: []
+    photo: /assets/img/team/institucional.png
+    links:
+      lattes: ""
+      orcid: ""
+      github: ""
+      linkedin: ""
+      email: ""
+    active: true
+
+  - id: antonio-tadeu-dos-reis
+    name: Antonio Tadeu dos Reis
+    group: interinstitutional_steering_committee
+    order: 3
+    role: ""
+    affiliation: ""
+    description: ""
+    areas: []
+    keywords: []
+    photo: /assets/img/team/institucional.png
+    links:
+      lattes: ""
+      orcid: ""
+      github: ""
+      linkedin: ""
+      email: ""
     active: true
