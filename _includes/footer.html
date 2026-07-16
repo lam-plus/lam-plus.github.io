@@ -1,13 +1,26 @@
 <footer class="site-footer">
 	<div class="site-footer-inner">
-		<p><strong>LAM+</strong> - Laboratorio de Analise Multiespectral e Inteligencia Artificial para Sedimentos</p>
-		<p>Universidade Federal Fluminense (UFF)</p>
-		<p>
-			{% if page.lang == 'en' %}
-				Institutional contact: <a href="mailto:contato@lamplus.org">contato@lamplus.org</a>
-			{% else %}
-				Contato institucional: <a href="mailto:contato@lamplus.org">contato@lamplus.org</a>
-			{% endif %}
-		</p>
+		<div class="site-footer-copy">
+			<p><strong>LAM+</strong> - Laboratorio de Analise Multiespectral e Inteligencia Artificial para Sedimentos</p>
+			<p>Universidade Federal Fluminense (UFF)</p>
+			<p>
+				{% if page.lang == 'en' %}
+					Institutional contact: <a href="mailto:contato@lamplus.org">contato@lamplus.org</a>
+				{% else %}
+					Contato institucional: <a href="mailto:contato@lamplus.org">contato@lamplus.org</a>
+				{% endif %}
+			</p>
+		</div>
+
+		<div class="site-footer-affiliation">
+			<p>
+				{% if page.lang == 'en' %}
+					LAM+ is part of
+				{% else %}
+					O LAM+ é parte do
+				{% endif %}
+			</p>
+			<img src="{{ '/assets/img/logo/progem-uff.png' | relative_url }}" alt="PROGEM-UFF" class="site-footer-logo" />
+		</div>
 	</div>
 </footer>

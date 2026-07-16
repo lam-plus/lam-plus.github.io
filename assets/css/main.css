@@ -1093,10 +1093,33 @@ a:hover {
   margin: 0 auto;
   padding: 1rem;
   font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.site-footer-copy {
+  min-width: 0;
 }
 
 .site-footer p {
   margin: 0.25rem 0;
+}
+
+.site-footer-affiliation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.site-footer-logo {
+  display: block;
+  max-width: 220px;
+  width: 100%;
+  height: auto;
 }
 
 /* Responsive */
@@ -1158,6 +1181,15 @@ a:hover {
   .academic-profile,
   .project-profile {
     padding: 1.25rem;
+  }
+
+  .site-footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-footer-affiliation {
+    white-space: normal;
     border-radius: 14px;
   }
 
