@@ -15,12 +15,15 @@
 		<div class="site-footer-affiliation">
 			<p>
 				{% if page.lang == 'en' %}
-					LAM+ is part of
+					<strong>LAM+</strong> is part of
 				{% else %}
-					O LAM+ é parte do
+					O <strong>LAM+</strong> é parte do
 				{% endif %}
 			</p>
-			<img src="{{ '/assets/img/logo/progem-uff.png' | relative_url }}" alt="PROGEM-UFF" class="site-footer-logo" />
+			<div class="site-footer-logos">
+				<img src="{{ '/assets/img/logo/progem-uff.png' | relative_url }}" alt="PROGEM-UFF" class="site-footer-logo" />
+				<img src="{{ '/assets/img/logo/logo-uff.png' | relative_url }}" alt="UFF" class="site-footer-logo" />
+			</div>
 		</div>
 	</div>
 </footer>

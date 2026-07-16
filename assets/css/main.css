@@ -1115,6 +1115,13 @@ a:hover {
   white-space: nowrap;
 }
 
+.site-footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
 .site-footer-logo {
   display: block;
   max-width: 220px;
