@@ -1,0 +1,45 @@
+{
+  "name": "Fernanda",
+  "role": {
+    "pt": "adasdas",
+    "en": "adsd"
+  },
+  "affiliation": {
+    "pt": "adasd",
+    "en": "adsad"
+  },
+  "description": {
+    "pt": "adasd",
+    "en": "adsda"
+  },
+  "areas": {
+    "pt": [
+      "dasda"
+    ],
+    "en": [
+      "adsd"
+    ]
+  },
+  "keywords": {
+    "pt": [
+      "adsad"
+    ],
+    "en": [
+      "adsda"
+    ]
+  },
+  "links": {
+    "lattes": "",
+    "orcid": "",
+    "github": "",
+    "linkedin": "",
+    "email": "fe@fe.edu"
+  },
+  "photo": {
+    "filename": "fernanda.png",
+    "mime_type": "image/png",
+    "width": 800,
+    "height": 800,
+    "size_bytes": 627991
+  }
+}
