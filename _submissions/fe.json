@@ -1,0 +1,45 @@
+{
+  "name": "fe",
+  "role": {
+    "pt": "asdasd",
+    "en": "adsa"
+  },
+  "affiliation": {
+    "pt": "adas",
+    "en": "asdas"
+  },
+  "description": {
+    "pt": "adas",
+    "en": "asdas"
+  },
+  "areas": {
+    "pt": [
+      "dasda"
+    ],
+    "en": [
+      "adas"
+    ]
+  },
+  "keywords": {
+    "pt": [
+      "adsa"
+    ],
+    "en": [
+      "daas"
+    ]
+  },
+  "links": {
+    "lattes": "",
+    "orcid": "",
+    "github": "",
+    "linkedin": "",
+    "email": "fe@fe.edu"
+  },
+  "photo": {
+    "filename": "fe.png",
+    "mime_type": "image/png",
+    "width": 800,
+    "height": 800,
+    "size_bytes": 627991
+  }
+}
