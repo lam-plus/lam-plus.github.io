@@ -1,0 +1,45 @@
+{
+  "name": "fe",
+  "role": {
+    "pt": "teste",
+    "en": "teste"
+  },
+  "affiliation": {
+    "pt": "teste",
+    "en": "teste"
+  },
+  "description": {
+    "pt": "teste",
+    "en": "teste"
+  },
+  "areas": {
+    "pt": [
+      "teste"
+    ],
+    "en": [
+      "teste"
+    ]
+  },
+  "keywords": {
+    "pt": [
+      "teste"
+    ],
+    "en": [
+      "teste"
+    ]
+  },
+  "links": {
+    "lattes": "",
+    "orcid": "",
+    "github": "",
+    "linkedin": "",
+    "email": "fe@fe.edu"
+  },
+  "photo": {
+    "filename": "fe.png",
+    "mime_type": "image/png",
+    "width": 800,
+    "height": 800,
+    "size_bytes": 627991
+  }
+}
