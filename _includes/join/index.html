@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal da Equipe LAM+ — Inclusão / Atualização de Perfil</title>
+  <meta name="description" content="Envie ou atualize seu perfil na equipe LAM+." />
+  <link rel="stylesheet" href="join.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <img class="brand__logo" src="assets/lamplus-logo.png" alt="LAM+" />
+      <div class="brand">
+        <p class="brand__title">Portal da Equipe LAM+</p>
+        <p class="brand__tagline">Inclusão e atualização de perfil</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <!-- ============================= FORM ============================= -->
+    <section class="form-panel" aria-labelledby="form-heading">
+      <h1 id="form-heading">Perfil de membro da equipe</h1>
+      <p class="form-intro">
+        Preencha os campos abaixo para criar ou atualizar seu registro na página da
+        equipe LAM+. Você pode revisar os dados gerados, baixá-los localmente para
+        conferência e enviá-los ao servidor de recebimento do LAM+.
+      </p>
+
+      <div class="notice" role="note">
+        <strong>Aviso do protótipo.</strong> O envio ao servidor é recebido e validado,
+        mas ainda não é armazenado nem publicado em lugar nenhum — esta etapa do
+        projeto ainda não grava dados.
+      </div>
+
+      <form id="profile-form" novalidate>
+
+        <div id="error-summary" class="error-summary" role="alert" aria-live="assertive" hidden>
+          <p class="error-summary__title">Por favor, revise os seguintes campos:</p>
+          <ul id="error-summary-list"></ul>
+        </div>
+
+        <!-- ---------- Photo ---------- -->
+        <fieldset class="form-section">
+          <legend>Foto</legend>
+
+          <div class="field">
+            <label for="photo">Foto de perfil</label>
+            <input
+              type="file"
+              id="photo"
+              name="photo"
+              accept="image/png, image/jpeg, image/webp"
+              aria-describedby="photo-help photo-error"
+            />
+            <p id="photo-help" class="field-help">
+              JPG, PNG ou WEBP, até 8&nbsp;MB. A imagem é processada inteiramente no
+              seu navegador: recortada em formato quadrado, redimensionada para
+              800&nbsp;×&nbsp;800&nbsp;px e convertida para PNG (até 1&nbsp;MB).
+            </p>
+            <p id="photo-error" class="field-error" aria-live="polite"></p>
+
+            <div id="photo-crop-panel" class="photo-crop-panel" hidden>
+              <p class="field-help">
+                Arraste a imagem para reposicionar e use o controle de zoom para
+                ajustar o recorte quadrado. Um recorte central é aplicado
+                automaticamente.
+              </p>
+              <div class="crop-stage" id="crop-stage">
+                <img id="crop-image" alt="" draggable="false" />
+              </div>
+              <div class="crop-controls">
+                <label for="crop-zoom">Zoom</label>
+                <input type="range" id="crop-zoom" min="1" max="3" step="0.01" value="1" />
+              </div>
+              <p id="photo-meta" class="photo-meta" hidden></p>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- ---------- Shared identity ---------- -->
+        <fieldset class="form-section">
+          <legend>Identificação e contato</legend>
+          <p class="section-help">Estes campos são compartilhados entre as versões em português e inglês do seu perfil.</p>
+
+          <div class="field">
+            <label for="fullName">Nome completo <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="fullName" name="fullName" autocomplete="name" required
+                   aria-describedby="fullName-error" />
+            <p id="fullName-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail institucional / profissional <span class="required" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required
+                   placeholder="nome@instituicao.edu" aria-describedby="email-error" />
+            <p id="email-error" class="field-error" aria-live="polite"></p>
+          </div>
+        </fieldset>
+
+        <!-- ---------- Links ---------- -->
+        <fieldset class="form-section">
+          <legend>Links</legend>
+          <p class="section-help">Opcional, mas recomendado. Inclua a URL completa (começando com https://).</p>
+
+          <div class="field">
+            <label for="lattes">Currículo Lattes</label>
+            <input type="url" id="lattes" name="lattes" inputmode="url"
+                   placeholder="https://lattes.cnpq.br/…" aria-describedby="lattes-error" />
+            <p id="lattes-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="orcid">ORCID</label>
+            <input type="url" id="orcid" name="orcid" inputmode="url"
+                   placeholder="https://orcid.org/0000-0000-0000-0000" aria-describedby="orcid-error" />
+            <p id="orcid-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="github">GitHub</label>
+            <input type="url" id="github" name="github" inputmode="url"
+                   placeholder="https://github.com/…" aria-describedby="github-error" />
+            <p id="github-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="linkedin">LinkedIn</label>
+            <input type="url" id="linkedin" name="linkedin" inputmode="url"
+                   placeholder="https://linkedin.com/in/…" aria-describedby="linkedin-error" />
+            <p id="linkedin-error" class="field-error" aria-live="polite"></p>
+          </div>
+        </fieldset>
+
+        <!-- ---------- Portuguese content ---------- -->
+        <fieldset class="form-section lang-section" aria-labelledby="pt-legend">
+          <legend id="pt-legend">
+            <span class="lang-flag" aria-hidden="true">PT</span> Português
+          </legend>
+
+          <div class="field">
+            <label for="rolePt">Função / cargo <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="rolePt" name="rolePt" required placeholder="Ex.: Pesquisadora, Doutoranda…"
+                   aria-describedby="rolePt-error" />
+            <p id="rolePt-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="affiliationPt">Afiliação <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="affiliationPt" name="affiliationPt" required
+                   placeholder="Ex.: Universidade Federal Fluminense (UFF)" aria-describedby="affiliationPt-error" />
+            <p id="affiliationPt-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="descriptionPt">Descrição breve <span class="required" aria-hidden="true">*</span></label>
+            <textarea id="descriptionPt" name="descriptionPt" rows="4" required maxlength="400"
+                      aria-describedby="descriptionPt-help descriptionPt-error"></textarea>
+            <p id="descriptionPt-help" class="field-help">Até 400 caracteres.</p>
+            <p id="descriptionPt-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="areasPt">Áreas de atuação <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="areasPt" name="areasPt" required
+                   placeholder="Separadas por vírgula — ex.: Sensoriamento remoto, Sedimentologia"
+                   aria-describedby="areasPt-help areasPt-error" />
+            <p id="areasPt-help" class="field-help">Separe cada área por vírgula.</p>
+            <p id="areasPt-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="keywordsPt">Palavras-chave <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="keywordsPt" name="keywordsPt" required
+                   placeholder="Separadas por vírgula — ex.: IA, geoquímica, batimetria"
+                   aria-describedby="keywordsPt-help keywordsPt-error" />
+            <p id="keywordsPt-help" class="field-help">Separe cada palavra-chave por vírgula.</p>
+            <p id="keywordsPt-error" class="field-error" aria-live="polite"></p>
+          </div>
+        </fieldset>
+
+        <!-- ---------- English content ---------- -->
+        <fieldset class="form-section lang-section" aria-labelledby="en-legend">
+          <legend id="en-legend">
+            <span class="lang-flag" aria-hidden="true">EN</span> English
+          </legend>
+
+          <div class="field">
+            <label for="roleEn">Role / position <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="roleEn" name="roleEn" required placeholder="e.g. Researcher, PhD Candidate…"
+                   aria-describedby="roleEn-error" />
+            <p id="roleEn-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="affiliationEn">Affiliation <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="affiliationEn" name="affiliationEn" required
+                   placeholder="e.g. Fluminense Federal University (UFF)" aria-describedby="affiliationEn-error" />
+            <p id="affiliationEn-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="descriptionEn">Short description <span class="required" aria-hidden="true">*</span></label>
+            <textarea id="descriptionEn" name="descriptionEn" rows="4" required maxlength="400"
+                      aria-describedby="descriptionEn-help descriptionEn-error"></textarea>
+            <p id="descriptionEn-help" class="field-help">Até 400 caracteres. Preencha em inglês.</p>
+            <p id="descriptionEn-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="areasEn">Areas of activity <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="areasEn" name="areasEn" required
+                   placeholder="e.g. Remote sensing, Sedimentology"
+                   aria-describedby="areasEn-help areasEn-error" />
+            <p id="areasEn-help" class="field-help">Separe cada área por vírgula. Preencha em inglês.</p>
+            <p id="areasEn-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="keywordsEn">Keywords <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="keywordsEn" name="keywordsEn" required
+                   placeholder="e.g. AI, geochemistry, bathymetry"
+                   aria-describedby="keywordsEn-help keywordsEn-error" />
+            <p id="keywordsEn-help" class="field-help">Separe cada palavra-chave por vírgula. Preencha em inglês.</p>
+            <p id="keywordsEn-error" class="field-error" aria-live="polite"></p>
+          </div>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn--primary">Revisar envio</button>
+          <button type="button" id="submit-worker" class="btn btn--secondary">Enviar ao servidor</button>
+          <button type="reset" class="btn btn--ghost">Limpar formulário</button>
+        </div>
+        <p id="submit-status" class="submit-status" aria-live="polite"></p>
+
+        <div id="result-panel" class="result-panel" hidden>
+          <h2>Dados gerados</h2>
+          <p class="section-help">
+            Este é o payload final da submissão. Campos administrativos (id, grupo,
+            ordem, ativo) são atribuídos depois pela equipe responsável e não fazem
+            parte deste formulário. Use "Enviar ao servidor" para transmitir estes
+            dados ao Worker, ou baixe o JSON e o PNG processado apenas para
+            conferência local — os dois arquivos representam exatamente a mesma
+            submissão.
+          </p>
+          <pre id="result-json" class="result-json" tabindex="0"></pre>
+          <div class="form-actions">
+            <button type="button" id="download-json" class="btn btn--secondary">Baixar JSON</button>
+            <button type="button" id="download-photo" class="btn btn--secondary" hidden>Baixar foto PNG</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- ============================= PREVIEW ============================= -->
+    <aside class="preview-panel" aria-labelledby="preview-heading">
+      <div class="preview-panel__sticky">
+        <div class="preview-panel__head">
+          <h2 id="preview-heading">Prévia em tempo real</h2>
+          <div class="lang-toggle" role="group" aria-label="Idioma da prévia">
+            <button type="button" class="lang-toggle__btn is-active" id="preview-lang-pt" aria-pressed="true">PT</button>
+            <button type="button" class="lang-toggle__btn" id="preview-lang-en" aria-pressed="false">EN</button>
+          </div>
+        </div>
+
+        <p class="section-help">Renderização aproximada do seu registro na página da equipe LAM+.</p>
+
+        <article class="team-card" id="team-card" aria-label="Prévia do cartão da equipe">
+          <div class="team-card__photo">
+            <img id="preview-photo" src="" alt="" hidden />
+            <div id="preview-photo-fallback" class="team-card__photo-fallback" aria-hidden="true">
+              <span id="preview-initials">?</span>
+            </div>
+          </div>
+
+          <h3 class="team-card__name" id="preview-name">Seu nome</h3>
+          <p class="team-card__role" id="preview-role">Função / cargo</p>
+          <p class="team-card__affiliation" id="preview-affiliation">Afiliação</p>
+          <p class="team-card__description" id="preview-description">
+            Sua descrição breve aparecerá aqui.
+          </p>
+
+          <div class="team-card__tags" id="preview-areas" aria-label="Áreas de atuação"></div>
+
+          <div class="team-card__links" id="preview-links" aria-label="Links do perfil">
+            <a class="team-card__link team-card__link--muted" id="link-lattes" href="#" hidden>Lattes</a>
+            <a class="team-card__link team-card__link--muted" id="link-orcid" href="#" hidden>ORCID</a>
+            <a class="team-card__link team-card__link--muted" id="link-github" href="#" hidden>GitHub</a>
+            <a class="team-card__link team-card__link--muted" id="link-linkedin" href="#" hidden>LinkedIn</a>
+          </div>
+
+          <p class="team-card__email" id="preview-email" hidden></p>
+        </article>
+      </div>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Portal da Equipe LAM+ — protótipo de frontend. Não conectado à produção.</p>
+  </footer>
+
+  <script src="join.js"></script>
+</body>
+</html>
