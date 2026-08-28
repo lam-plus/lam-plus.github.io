@@ -1,0 +1,53 @@
+{
+  "name": "Arthur Canto da Silva",
+  "role": {
+    "pt": "Estudante de Iniciação Científica",
+    "en": "Undergraduate Research"
+  },
+  "affiliation": {
+    "pt": "Universidade Federal Fluminense",
+    "en": "Fluminense Federal University"
+  },
+  "description": {
+    "pt": "Graduando em Geofísica na UFF, com atuação em geologia marinha, sedimentologia e análise multiespectral.",
+    "en": "Undergraduate student in Geophysics in UFF, with a role in marine geology, sedimentology and multispectral analysis."
+  },
+  "areas": {
+    "pt": [
+      "Análise multiespectral",
+      "Sedimentologia"
+    ],
+    "en": [
+      "Multispectral analysis",
+      "Sedimentology"
+    ]
+  },
+  "keywords": {
+    "pt": [
+      "Geofísica",
+      "geologia marinha",
+      "sedimentologia",
+      "multiespectral"
+    ],
+    "en": [
+      "Geophysics",
+      "marine geology",
+      "sedimentology",
+      "multispectral"
+    ]
+  },
+  "links": {
+    "lattes": "http://lattes.cnpq.br/3874374624380021",
+    "orcid": "https://orcid.org/0009-0001-8465-2326",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/arthur-canto-688787312?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "arthurcs@id.uff.br"
+  },
+  "photo": {
+    "filename": "arthur-canto-da-silva.png",
+    "mime_type": "image/png",
+    "width": 800,
+    "height": 800,
+    "size_bytes": 829585
+  }
+}
