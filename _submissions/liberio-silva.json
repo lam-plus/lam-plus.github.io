@@ -1,0 +1,57 @@
+{
+  "name": "Libério Silva",
+  "role": {
+    "pt": "Pesquisador Visitante",
+    "en": "Visiting Researcher."
+  },
+  "affiliation": {
+    "pt": "Universidade Federal Fluminense",
+    "en": "Fluminense Federal University"
+  },
+  "description": {
+    "pt": "Doutor em Geociências (Geoquímica) pela Universidade Federal Fluminense, Mestre em Manejo e Conservação de Ecossistemas Naturais e Agrários pela Universidade Federal de Viçosa e graduado em Ciências Biológicas pela Fundação Universidade de Itaúna.",
+    "en": "PhD in Geosciences (Geochemistry) from Fluminense Federal University, MSc in Management and Conservation of Natural and Agricultural Ecosystems from the Federal University of Viçosa, and BSc in Biological Sciences from the Itaúna University Foundation."
+  },
+  "areas": {
+    "pt": [
+      "Sensoriamento Remoto",
+      "Solos",
+      "Mudanças Climáticas",
+      "Ciclos Biogeoquímicos"
+    ],
+    "en": [
+      "Remote Sensing",
+      "Soil Science",
+      "Climate Change",
+      "Biogeochemical Cycles"
+    ]
+  },
+  "keywords": {
+    "pt": [
+      "IA",
+      "geoquímica",
+      "sedimetologia",
+      "sensoriamento remoto"
+    ],
+    "en": [
+      "Artificial Intelligence (AI)",
+      "Geochemistry",
+      "Sedimentology",
+      "Remote Sensing"
+    ]
+  },
+  "links": {
+    "lattes": "http://lattes.cnpq.br/9162739267571634",
+    "orcid": "https://orcid.org/0000-0002-6677-4645",
+    "github": "",
+    "linkedin": "",
+    "email": "liberiojs@id.uff.br"
+  },
+  "photo": {
+    "filename": "liberio-silva.png",
+    "mime_type": "image/png",
+    "width": 800,
+    "height": 800,
+    "size_bytes": 938460
+  }
+}
