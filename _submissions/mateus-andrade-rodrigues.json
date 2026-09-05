@@ -1,0 +1,59 @@
+{
+  "name": "Mateus Andrade Rodrigues",
+  "role": {
+    "pt": "Doutorando",
+    "en": "PhD Student"
+  },
+  "affiliation": {
+    "pt": "PPG Dinâmica dos Oceanos e da Terra - Universidade Federal Fluminense",
+    "en": "Graduate Program in Ocean and Earth Dynamics (PPGDOT) – Fluminense Federal University (UFF)"
+  },
+  "description": {
+    "pt": "Geólogo com interesse em Petrologia Sedimentar, Sedimentologia e Geoenergias. Atua na caracterização e análise de rochas sedimentares por meio da integração de técnicas avançadas, incluindo imageamento hiperespectral, microfluorescência de raios X (μ-XRF) e microscopia eletrônica de alta resolução.",
+    "en": "Geologist with an interest in Sedimentary Petrology, Sedimentology, and Geoenergy. Works on the characterization and analysis of sedimentary rocks through the integration of advanced techniques, including hyperspectral imaging, micro-X-ray fluorescence (μ-XRF), and high-resolution electron microscopy."
+  },
+  "areas": {
+    "pt": [
+      "Sedimentologia",
+      "Petrologia Sedimentar",
+      "MEV-EDS",
+      "Imageamento Hiperespectral",
+      "Micro-XRF"
+    ],
+    "en": [
+      "Sedimentology",
+      "Sedimentary Petrology",
+      "Scanning Electron Microscopy (SEM-EDS)",
+      "Hyperspectral Imaging (HSI)",
+      "Micro-X-ray Fluorescence (μ-XRF)"
+    ]
+  },
+  "keywords": {
+    "pt": [
+      "Rochas Sedimentares",
+      "Sedimentologia",
+      "Petrologia Sedimentar",
+      "Imageamento Hiperespectral."
+    ],
+    "en": [
+      "Sedimentary Rocks",
+      "Sedimentology",
+      "Sedimentary Petrology",
+      "Hyperspectral Imaging."
+    ]
+  },
+  "links": {
+    "lattes": "https://lattes.cnpq.br/6641294499424222",
+    "orcid": "https://orcid.org/0000-0001-8837-7993",
+    "github": "https://github.com/mateusandrade-geo",
+    "linkedin": "",
+    "email": "mateus_andrade@id.uff.br"
+  },
+  "photo": {
+    "filename": "mateus-andrade-rodrigues.png",
+    "mime_type": "image/png",
+    "width": 800,
+    "height": 800,
+    "size_bytes": 1012286
+  }
+}
