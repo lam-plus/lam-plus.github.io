@@ -15,24 +15,27 @@ metadata:
   privacy_note: Do not include phone, WhatsApp, personal or institutional email, or other sensitive personal data in this public file.
 
 groups:
-  - id: interinstitutional_steering_committee
-    title: Interinstitutional Steering Committee
-    order: 7
   - id: coordination
     title: Coordination
     order: 1
   - id: technical_staff
-    title: Technical Staff and Technical Fellows
+    title: Technical Staff
     order: 2
   - id: associate_researchers
     title: Associate Researchers
     order: 3
-  - id: undergraduate
-    title: Undergraduate Researchers
+  - id: graduate_students
+    title: Graduate Students
     order: 4
+  - id: undergraduate
+    title: Undergraduate Students
+    order: 5
   - id: collaborators
     title: Collaborators
-    order: 5
+    order: 6
+  - id: interinstitutional_steering_committee
+    title: Interinstitutional Steering Committee
+    order: 7
 
 people:
   - id: ana-luiza-s-albuquerque
@@ -244,6 +247,51 @@ people:
       linkedin: ""
     active: true
 
+  - id: arthur-canto-da-silva
+    name: Arthur Canto da Silva
+    group: undergraduate
+    order: 3
+    role: Undergraduate Research Student
+    affiliation: Universidade Federal Fluminense
+    description: Undergraduate student in Geophysics at UFF, working in marine geology, sedimentology, and multispectral analysis.
+    areas:
+      - Multispectral Analysis
+      - Sedimentology
+    keywords:
+      - Geophysics
+      - Marine Geology
+      - Sedimentology
+      - Multispectral
+    photo: /assets/img/team/arthur-canto-da-silva.png
+    links:
+      lattes: http://lattes.cnpq.br/3874374624380021
+      orcid: https://orcid.org/0009-0001-8465-2326
+      github: ""
+      linkedin: "https://www.linkedin.com/in/arthur-canto-688787312?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+      email: "arthurcs@id.uff.br"
+    active: true
+
+  - id: thaynara-flores-carvalho-da-silva
+    name: Thaynara Flores Carvalho da Silva
+    group: undergraduate
+    order: 4
+    role: Undergraduate Research Student
+    affiliation: Universidade Federal Fluminense
+    description: Geophysics undergraduate student working in marine geology and multispectral analysis.
+    areas:
+      - Marine Geology
+    keywords:
+      - Geology
+    photo: /assets/img/team/thaynara-flores-carvalho-da-silva.png
+    links:
+      lattes: "https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K1212075Y6&tokenCaptchar=0cAFcWeA6_I9KIBaymQuZcQ4hNtV0WZTQQISe5AR0EcDqa69_A5TzTht65Z_VnLqW5_GqbT__CEgC1el1O_gUYxa0yCIG-R1fyof6dHlVNst98QEZ65ELrGFHfsJpAZMsGWnBB1xPh9SfsHr2ehE_UeQe_IIQWjmIbJVCL9vBjqIHuZ85UHpvBll4t-i6811CVpWSLYugFfvu5ZTynvmD_T5DHWUrtnf5NNmaE_33T-1eaLae2AmwToizJeB9KAGKZgNz_vmGkfkxhe8cn_GUiQ31nmaLKWKjKiLs_bjDaCPXV8LHxi4uxAiJnsZeuXhIz60xAnCz7kTMzsjDFGKf66l5w21UPCTgN_hMsbhh-Z8xaKKV1MTg3blI6aLXUaGRNcXb7YRYLo8Stry2osoZ6dmfN35T8gAdsSi8vfVfAdqe3M0s6stTNFWaMUFRVxYsEQTbx2HIuRS53OfhivjddaD3rQd5tJFbMZW5Ol1KsxCMxdwsr1l6VYT6DIM7qUJi2fTbR4Uvn9_9Izr9sxptDNT_mgooQ2V-V94D7M4UARhm-VD_MZJcsBIEUpLltMqudcblGx34q-XILhj1nJ8yGCE7PItXqOyNBetBUCqgz_YudR_oyy7enm3bIPBtP4k0YWthdHQTyBVSLTwFvZmWUg_GpcCUOnuQwK5O17I2zMR03GhLbNb7deSo793cjqL8XXz2zdXbWaGNgsuRMP313MWkkkEfB9-xeY1NmwyCdYRvAcR1W1k4Y5qYLVTVqI3haW3TFlTI4HAU6KUWRVX6dsPGkJfV0jkBWjjE6_2Ik4BcUXqagRpJtW8KmF0LBpD2EtbGfUC3zvJqKz_cbrGMW1W1Q7de4vW0J0jXeKsRbXbatpDOAPZSGA9BUbTOqxmN8VMzPi1m3i6I1zx9tgfhuoCqmdjARPVP34hDWhbbBoU6dKRqPrFjyjsS8yNHKxU9exnqTlQI_sOsfnhGI_qfSwpZVjIexhWsZZsXQViUbaSFL_ItMZtxw_8CbPB0Mo_ohJYNeS2dgd-IHnG5T3ynHMCS1dFyvQD19MB5g5WntZD5HZcTnXYy3IC53ph9n-hurSUuvU92ZzyHKNDxwGTqCBPDKm2Dk2ZAd08DBGI3nqQF3a2gn-6BK3WdK4KJ0ZZmpDDBfZLaGszrkckLvId3yGl4I6r-x98Wdw7phC0beRBlPMSKheNxfOC40uTjY_OTPURVg4ohksoN099kIYoWcyciwQ5JxSJHQkBRttURdyutc_SQPtJs2a4QR-8WTJcx9SmSzqBPQWSRhhZJmdznkH0vaQbwYQ_lfALkjdOrTL1TjM7aVpbOiFjVu9CGaZExGX6gOhNaFzhUu1nHNCvZ-8XnDFAMtgjTZPqldbo4f5VuHtAwvEMt1TPnJhhBF-hmhn4UVqmAkPiJLLMD2XV9v_QSMTJwgx_BjLWZoOwYbL3VtorqzGd-dwAqqHU8XtGB9JGjh4xue--9e6QI1KzQypuR1qJmMQfQ5c290SQ6sB3x78OL3-6eFr9_A-rFjjDp40oshJJWe8PT3fMkgsW3ZST_Ge_bhxnD6E4c-s6X5bdDj5PYjmnGvvT_TfT-lZ9V7WsgARf-5-5NWw7L41i0HApUYFhSy4JurEEFjkhh3SBK0IBdpzm8HCiaVOQXs_2Dtmamh1ShN8jt26FgxaJe8HMO_EZtzKmBNbzS-8U6m2I6pTv7Vl7n_2ujUfFNcKQyV0cOUZ_YGRMOvsJ-k65B9eBQA2XLauUgBral7dfWQo0S7HQOLZm9FmZzgV-qTAmmjcJguyDGGv5YiWZZa__BOmlEMJ1HgU4lMLWdOzlVdxgsvnLT_t7Py5Yt29vw3M4xao-NEha3rXFlD58OLeRB2Tkhowy7pqvFVUUvoVi1zS9_f3uP15eW-MwiMSfhpQPF2yWGID3scUf6QrjQlWaQrAZERdJ_w_5JswiYe8cTMdktUPfS7Mhg_zMkoTOl69zeTpvmOi8I8rfY_b-WX5P4tDjolDZTcRBNofUuPA8fI16EQl-Ih6n3xCifX-cGaazDYMsn7lejBS-YSqtntCF4HEtD5M6g1wtGQP0-bBz7uLlqaX6zfbCSOVZyJ-zkT2BqlGzuT26TnPh3Q3NsoTBemFT-6_C7HykTdodIaYJqp9bZevG8jQ_Qzd2D6XhXGU-cekJjOkeZYfzXhLcSoyDbRmRvWj-eP2HHliGhPERxaQURoEN5a4oy24T9t8_4dlpmygKadKNJ5MMe0hUWxtnD0LEJNqbN6mpxPbfhsoCZ6tvEtlf-Tki-3rOI"
+      orcid: https://orcid.org/0009-0005-8478-4010
+      github: ""
+      linkedin: ""
+      email: "t_flores@id.uff.br"
+    active: true
+    notes: "WARNING: submitted Lattes link is a search URL with a captcha token (not a permanent link). Recommend replacing it with the standard CV URL (e.g., https://lattes.cnpq.br/{id}) before publishing."
+
   - id: milena-kury
     name: Milena Souza Kury
     group: associate_researchers
@@ -324,6 +372,34 @@ people:
       github: https://github.com/JMBallalai
       linkedin: ""
       email: joaoballalai@id.uff.br
+    active: true
+
+  - id: liberio-silva
+    name: Libério Silva
+    group: associate_researchers
+    order: 4
+    role: Visiting Researcher
+    affiliation: Fluminense Federal University
+    description: PhD in Geosciences (Geochemistry) from UFF, MSc in Management and Conservation of Natural and Agricultural
+      Ecosystems from Universidade Federal de Viçosa, and BSc in Biological Sciences from Fundação Universidade de
+      Itaúna.
+    areas:
+      - Remote Sensing
+      - Soil Science
+      - Climate Change
+      - Biogeochemical Cycles
+    keywords:
+      - Artificial Intelligence (AI)
+      - Geochemistry
+      - Sedimentology
+      - Remote Sensing
+    photo: /assets/img/team/liberio-silva.png
+    links:
+      lattes: http://lattes.cnpq.br/9162739267571634
+      orcid: https://orcid.org/0000-0002-6677-4645
+      github: ""
+      linkedin: ""
+      email: "liberiojs@id.uff.br"
     active: true
 
   - id: cleverson-guizan-silva
@@ -407,4 +483,33 @@ people:
       github: ""
       linkedin: ""
       email: tadeu.reis@gmail.com
+    active: true
+
+  - id: mateus-andrade-rodrigues
+    name: Mateus Andrade Rodrigues
+    group: graduate_students
+    order: 1
+    role: PhD Student
+    affiliation: Fluminense Federal University — Graduate Program in Ocean and Earth Dynamics (PPGDOT)
+    description: Geologist with an interest in Sedimentary Petrology, Sedimentology, and Geoenergy. Works on the
+      characterization and analysis of sedimentary rocks through the integration of advanced techniques, including
+      hyperspectral imaging, micro-X-ray fluorescence (μ-XRF), and high-resolution electron microscopy.
+    areas:
+      - Sedimentology
+      - Sedimentary Petrology
+      - Scanning Electron Microscopy (SEM-EDS)
+      - Hyperspectral Imaging (HSI)
+      - Micro-X-ray Fluorescence (μ-XRF)
+    keywords:
+      - Sedimentary Rocks
+      - Sedimentology
+      - Sedimentary Petrology
+      - Hyperspectral Imaging
+    photo: /assets/img/team/mateus-andrade-rodrigues.png
+    links:
+      lattes: https://lattes.cnpq.br/6641294499424222
+      orcid: https://orcid.org/0000-0001-8837-7993
+      github: https://github.com/mateusandrade-geo
+      linkedin: ""
+      email: "mateus_andrade@id.uff.br"
     active: true
