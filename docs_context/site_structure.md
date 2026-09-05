@@ -85,6 +85,7 @@ lam-plus2.github.io/
 ```text
 _pages/pt/laboratorio/index.md
 _pages/pt/laboratorio/pessoas.md
+_pages/pt/laboratorio/comite-gestor.md
 _pages/pt/submissao-de-amostras/index.md
 _pages/pt/protocolos/index.md
 _pages/pt/projetos/index.md
@@ -98,6 +99,7 @@ _pages/pt/contato/index.md
 ```text
 _pages/en/laboratory/index.md
 _pages/en/laboratory/people.md
+_pages/en/laboratory/steering-committee.md
 _pages/en/sample-submission/index.md
 _pages/en/protocols/index.md
 _pages/en/projects/index.md
@@ -112,6 +114,7 @@ _pages/en/contact/index.md
 /pt/
 /pt/laboratorio/
 /pt/laboratorio/pessoas/
+/pt/laboratorio/comite-gestor/
 /pt/submissao-de-amostras/
 /pt/protocolos/
 /pt/projetos/
@@ -126,6 +129,7 @@ _pages/en/contact/index.md
 /en/
 /en/laboratory/
 /en/laboratory/people/
+/en/laboratory/steering-committee/
 /en/sample-submission/
 /en/protocols/
 /en/projects/
@@ -411,7 +415,9 @@ Português:
 
 ```text
 Laboratório
+  Regimento
   Pessoas
+  Comitê Gestor
 Submissão de Amostras
 Protocolos
 Projetos
@@ -424,7 +430,9 @@ Inglês:
 
 ```text
 Laboratory
+  Bylaws
   People
+  Steering Committee
 Sample Submission
 Protocols
 Projects

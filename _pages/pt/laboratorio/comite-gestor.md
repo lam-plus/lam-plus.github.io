@@ -1,19 +1,19 @@
 ---
 layout: page
-lang: en
-title: People
-permalink: /en/laboratory/people/
-alt_lang: /pt/laboratorio/pessoas/
+lang: pt
+title: Comitê Gestor
+permalink: /pt/laboratorio/comite-gestor/
+alt_lang: /en/laboratory/steering-committee/
 ---
 
 <section class="page-shell team-page">
 	<header class="team-page-header">
-		<h1>LAM+ Team</h1>
-		<p class="team-intro">The LAM+ team brings together researchers, technical staff, students, and collaborators dedicated to multispectral analyses, high-resolution imaging, and artificial intelligence applied to the study of sediments and sedimentary sequences.</p>
+		<h1>Comitê Gestor Interinstitucional</h1>
+		<p class="team-intro">O Comitê Gestor Interinstitucional reúne representantes de instituições parceiras responsáveis pelo acompanhamento estratégico do LAM+, contribuindo para suas diretrizes de governança, funcionamento e desenvolvimento institucional.</p>
 	</header>
 
 	<div id="team-groups" class="team-groups" aria-live="polite">
-		<p class="team-loading">Loading team data...</p>
+		<p class="team-loading">Carregando comitê gestor...</p>
 	</div>
 </section>
 
@@ -82,7 +82,7 @@ alt_lang: /pt/laboratorio/pessoas/
 		var emailRow = document.createElement("p");
 		emailRow.className = "team-email";
 
-		var emailLabel = document.createTextNode("Email: ");
+		var emailLabel = document.createTextNode("E-mail: ");
 		emailRow.appendChild(emailLabel);
 
 		var emailAnchor = document.createElement("a");
@@ -109,7 +109,7 @@ alt_lang: /pt/laboratorio/pessoas/
 		if (person.photo && String(person.photo).trim()) {
 			var img = document.createElement("img");
 			img.src = resolveAssetUrl(String(person.photo));
-			img.alt = person.name ? "Photo of " + person.name : "Team member photo";
+			img.alt = person.name ? "Foto de " + person.name : "Foto do membro do comitê";
 			img.loading = "lazy";
 			img.decoding = "async";
 			img.addEventListener("error", function () {
@@ -186,9 +186,9 @@ alt_lang: /pt/laboratorio/pessoas/
 		var groups = Array.isArray(data.groups) ? data.groups.slice() : [];
 		var people = Array.isArray(data.people) ? data.people.slice() : [];
 
-		// The Interinstitutional Steering Committee has its own page at /en/laboratory/steering-committee/
+		// Esta página exibe apenas o Comitê Gestor Interinstitucional.
 		groups = groups.filter(function (group) {
-			return group && group.id !== "interinstitutional_steering_committee";
+			return group && group.id === "interinstitutional_steering_committee";
 		});
 
 		var activePeople = people.filter(function (person) {
@@ -221,11 +221,6 @@ alt_lang: /pt/laboratorio/pessoas/
 			var groupSection = document.createElement("section");
 			groupSection.className = "team-group";
 
-			var heading = document.createElement("h2");
-			heading.className = "team-group-title";
-			heading.textContent = group.title || group.id;
-			groupSection.appendChild(heading);
-
 			var list = document.createElement("div");
 			list.className = "team-list";
 
@@ -240,7 +235,7 @@ alt_lang: /pt/laboratorio/pessoas/
 		teamRoot.innerHTML = "";
 
 		if (!renderedGroups) {
-			teamRoot.innerHTML = "<p class=\"team-empty\">No active team members found at this time.</p>";
+			teamRoot.innerHTML = "<p class=\"team-empty\">Nenhum membro do comitê gestor encontrado no momento.</p>";
 			return;
 		}
 
@@ -248,7 +243,7 @@ alt_lang: /pt/laboratorio/pessoas/
 	}
 
 	function showError() {
-		teamRoot.innerHTML = "<p class=\"team-empty\">Unable to load team data right now.</p>";
+		teamRoot.innerHTML = "<p class=\"team-empty\">Não foi possível carregar os dados do comitê gestor agora.</p>";
 	}
 
 	if (!window.jsyaml || typeof window.jsyaml.load !== "function") {
@@ -256,10 +251,10 @@ alt_lang: /pt/laboratorio/pessoas/
 		return;
 	}
 
-	fetch("{{ site.baseurl }}/assets/data/team-en.yml", { cache: "no-store" })
+	fetch("{{ site.baseurl }}/assets/data/team-pt.yml", { cache: "no-store" })
 		.then(function (response) {
 			if (!response.ok) {
-				throw new Error("Failed to load team-en.yml");
+				throw new Error("Falha ao carregar team-pt.yml");
 			}
 			return response.text();
 		})

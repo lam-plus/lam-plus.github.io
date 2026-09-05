@@ -1,19 +1,19 @@
 ---
 layout: page
 lang: en
-title: People
-permalink: /en/laboratory/people/
-alt_lang: /pt/laboratorio/pessoas/
+title: Steering Committee
+permalink: /en/laboratory/steering-committee/
+alt_lang: /pt/laboratorio/comite-gestor/
 ---
 
 <section class="page-shell team-page">
 	<header class="team-page-header">
-		<h1>LAM+ Team</h1>
-		<p class="team-intro">The LAM+ team brings together researchers, technical staff, students, and collaborators dedicated to multispectral analyses, high-resolution imaging, and artificial intelligence applied to the study of sediments and sedimentary sequences.</p>
+		<h1>Interinstitutional Steering Committee</h1>
+		<p class="team-intro">The Interinstitutional Steering Committee brings together representatives from partner institutions responsible for the strategic oversight of LAM+, contributing to its governance guidelines, operation, and institutional development.</p>
 	</header>
 
 	<div id="team-groups" class="team-groups" aria-live="polite">
-		<p class="team-loading">Loading team data...</p>
+		<p class="team-loading">Loading steering committee...</p>
 	</div>
 </section>
 
@@ -109,7 +109,7 @@ alt_lang: /pt/laboratorio/pessoas/
 		if (person.photo && String(person.photo).trim()) {
 			var img = document.createElement("img");
 			img.src = resolveAssetUrl(String(person.photo));
-			img.alt = person.name ? "Photo of " + person.name : "Team member photo";
+			img.alt = person.name ? "Photo of " + person.name : "Steering committee member photo";
 			img.loading = "lazy";
 			img.decoding = "async";
 			img.addEventListener("error", function () {
@@ -186,9 +186,9 @@ alt_lang: /pt/laboratorio/pessoas/
 		var groups = Array.isArray(data.groups) ? data.groups.slice() : [];
 		var people = Array.isArray(data.people) ? data.people.slice() : [];
 
-		// The Interinstitutional Steering Committee has its own page at /en/laboratory/steering-committee/
+		// This page only displays the Interinstitutional Steering Committee.
 		groups = groups.filter(function (group) {
-			return group && group.id !== "interinstitutional_steering_committee";
+			return group && group.id === "interinstitutional_steering_committee";
 		});
 
 		var activePeople = people.filter(function (person) {
@@ -221,11 +221,6 @@ alt_lang: /pt/laboratorio/pessoas/
 			var groupSection = document.createElement("section");
 			groupSection.className = "team-group";
 
-			var heading = document.createElement("h2");
-			heading.className = "team-group-title";
-			heading.textContent = group.title || group.id;
-			groupSection.appendChild(heading);
-
 			var list = document.createElement("div");
 			list.className = "team-list";
 
@@ -240,7 +235,7 @@ alt_lang: /pt/laboratorio/pessoas/
 		teamRoot.innerHTML = "";
 
 		if (!renderedGroups) {
-			teamRoot.innerHTML = "<p class=\"team-empty\">No active team members found at this time.</p>";
+			teamRoot.innerHTML = "<p class=\"team-empty\">No steering committee members found at this time.</p>";
 			return;
 		}
 
@@ -248,7 +243,7 @@ alt_lang: /pt/laboratorio/pessoas/
 	}
 
 	function showError() {
-		teamRoot.innerHTML = "<p class=\"team-empty\">Unable to load team data right now.</p>";
+		teamRoot.innerHTML = "<p class=\"team-empty\">Unable to load steering committee data right now.</p>";
 	}
 
 	if (!window.jsyaml || typeof window.jsyaml.load !== "function") {

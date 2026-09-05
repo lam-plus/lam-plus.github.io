@@ -186,6 +186,11 @@ alt_lang: /en/laboratory/people/
 		var groups = Array.isArray(data.groups) ? data.groups.slice() : [];
 		var people = Array.isArray(data.people) ? data.people.slice() : [];
 
+		// O Comitê Gestor Interinstitucional tem página própria em /pt/laboratorio/comite-gestor/
+		groups = groups.filter(function (group) {
+			return group && group.id !== "interinstitutional_steering_committee";
+		});
+
 		var activePeople = people.filter(function (person) {
 			return person && person.active === true;
 		});
