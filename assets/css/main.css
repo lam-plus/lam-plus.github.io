@@ -1133,6 +1133,32 @@ a:hover {
   max-width: 110px;
 }
 
+.site-footer-social {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.site-footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--lam-accent);
+  transition: color 0.2s ease;
+}
+
+.site-footer-social-link:hover,
+.site-footer-social-link:focus-visible {
+  color: var(--lam-accent-dark);
+}
+
+.site-footer-social-icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
 /* Responsive */
 
 @media (max-width: 960px) {
