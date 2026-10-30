@@ -22,6 +22,16 @@ alt_lang: /en/sample-submission/
     </div>
   </div>
 
+  <div class="submission-cta">
+    <p>Para iniciar o processo, acesse a plataforma SIGA+:</p>
+    <a
+      class="button-link submission-button"
+      href="https://elysion.com.br/siga/entrar"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Acessar SIGA+</a>
+  </div>
+
   <div class="submission-notice">
     <strong>Atenção:</strong> O envio da solicitação pelo SIGA+ não implica aceitação automática da amostra nem agendamento imediato da análise.
     Todas as solicitações passam por triagem técnica pela equipe do LAM+.

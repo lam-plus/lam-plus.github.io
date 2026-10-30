@@ -22,6 +22,16 @@ alt_lang: /pt/submissao-de-amostras/
     </div>
   </div>
 
+  <div class="submission-cta">
+    <p>To get started, access the SIGA+ platform:</p>
+    <a
+      class="button-link submission-button"
+      href="https://elysion.com.br/siga/entrar"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Access SIGA+</a>
+  </div>
+
   <div class="submission-notice">
     <strong>Please note:</strong> Submitting a request through SIGA+ does not imply automatic acceptance of the sample or immediate scheduling of the analysis.
     All requests are subject to technical screening by the LAM+ team.
