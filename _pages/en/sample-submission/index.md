@@ -23,12 +23,12 @@ alt_lang: /pt/submissao-de-amostras/
   </div>
 
   <div class="submission-notice">
-    <strong>Please note:</strong> Submission of the form does not imply automatic acceptance of the sample or immediate scheduling of the analysis.
+    <strong>Please note:</strong> Submitting a request through SIGA+ does not imply automatic acceptance of the sample or immediate scheduling of the analysis.
     All requests are subject to technical screening by the LAM+ team.
   </div>
 
   <h2>Before submitting</h2>
-  <p>Please have the following information ready before filling in the form:</p>
+  <p>Please have the following information ready before filling in your request on SIGA+:</p>
   <ul>
     <li>Original sample identification;</li>
     <li>Project, institution, or source collection;</li>
@@ -74,21 +74,34 @@ alt_lang: /pt/submissao-de-amostras/
     top-to-base orientation, and history of prior analyses or preparation.
   </p>
 
-  <h2>What happens after registration</h2>
+  <h2>How SIGA+ works</h2>
   <p>
-    The LAM+ team will carry out a preliminary screening and may contact you to request additional information,
+    Analysis requests are made exclusively through <strong>SIGA+</strong>, the LAM+ request management platform.
+  </p>
+  <ul>
+    <li><strong>New users:</strong> please access SIGA+ and register before submitting an analysis request;</li>
+    <li><strong>Registered users:</strong> can log in directly to the platform with their credentials.</li>
+  </ul>
+  <p>
+    The entire process — request, communication with the laboratory, approval, scheduling, and delivery of results —
+    is managed through SIGA+.
+  </p>
+
+  <h2>What happens after your request</h2>
+  <p>
+    The LAM+ team will carry out a preliminary screening and may contact you through the platform to request additional information,
     discuss sample preparation, assess technical feasibility, define the analytical workflow, and arrange
     physical delivery of the sample, where applicable.
   </p>
 
   <div class="submission-cta">
-    <p>To start the process, please fill in the sample registration form:</p>
+    <p>To start the process, access the SIGA+ platform:</p>
     <a
       class="button-link submission-button"
-      href="https://forms.gle/WSLWCLtTitoCB21v9"
+      href="https://elysion.com.br/siga/entrar"
       target="_blank"
       rel="noopener noreferrer"
-    >Register sample</a>
+    >Access SIGA+</a>
   </div>
 
 </section>

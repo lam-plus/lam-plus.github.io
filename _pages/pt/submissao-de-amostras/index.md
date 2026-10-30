@@ -23,12 +23,12 @@ alt_lang: /en/sample-submission/
   </div>
 
   <div class="submission-notice">
-    <strong>Atenção:</strong> O envio do formulário não implica aceitação automática da amostra nem agendamento imediato da análise.
+    <strong>Atenção:</strong> O envio da solicitação pelo SIGA+ não implica aceitação automática da amostra nem agendamento imediato da análise.
     Todas as solicitações passam por triagem técnica pela equipe do LAM+.
   </div>
 
   <h2>Antes de submeter</h2>
-  <p>Tenha em mãos as seguintes informações antes de preencher o formulário:</p>
+  <p>Tenha em mãos as seguintes informações antes de preencher a solicitação no SIGA+:</p>
   <ul>
     <li>Identificação original da amostra;</li>
     <li>Projeto, instituição ou coleção de origem;</li>
@@ -74,21 +74,34 @@ alt_lang: /en/sample-submission/
     orientação topo-base e histórico de análises ou preparações anteriores.
   </p>
 
-  <h2>O que acontece após o cadastro</h2>
+  <h2>Como funciona o SIGA+</h2>
   <p>
-    A equipe do LAM+ realizará uma triagem preliminar e poderá entrar em contato para solicitar informações adicionais,
+    As solicitações de análise são feitas exclusivamente pelo <strong>SIGA+</strong>, a plataforma de gerenciamento de solicitações do LAM+.
+  </p>
+  <ul>
+    <li><strong>Novos usuários:</strong> acessem o SIGA+ e realizem o cadastro antes de enviar uma solicitação de análise;</li>
+    <li><strong>Usuários já cadastrados:</strong> acessem diretamente a plataforma com suas credenciais.</li>
+  </ul>
+  <p>
+    Todo o processo — solicitação, comunicação com o laboratório, aprovação, agendamento e disponibilização dos resultados —
+    é gerenciado pelo SIGA+.
+  </p>
+
+  <h2>O que acontece após a solicitação</h2>
+  <p>
+    A equipe do LAM+ realizará uma triagem preliminar e poderá entrar em contato, pela plataforma, para solicitar informações adicionais,
     discutir preparo, avaliar viabilidade técnica, definir o fluxo analítico e combinar o recebimento físico da amostra,
     quando aplicável.
   </p>
 
   <div class="submission-cta">
-    <p>Para iniciar o processo, preencha o formulário de cadastro de amostras:</p>
+    <p>Para iniciar o processo, acesse a plataforma SIGA+:</p>
     <a
       class="button-link submission-button"
-      href="https://forms.gle/WSLWCLtTitoCB21v9"
+      href="https://elysion.com.br/siga/entrar"
       target="_blank"
       rel="noopener noreferrer"
-    >Cadastrar amostra</a>
+    >Acessar SIGA+</a>
   </div>
 
 </section>
