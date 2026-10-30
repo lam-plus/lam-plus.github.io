@@ -194,6 +194,26 @@ people:
       linkedin: ""
     active: true
 
+  - id: gabrielle-pontes
+    name: Gabrielle Pontes
+    group: technical_staff
+    order: 3
+    role: Technical Fellow
+    affiliation: Universidade Federal Fluminense (UFF)
+    description: Chemistry undergraduate student, working as a technical scholarship holder at the LAM+ laboratory, with a focus on equipment handling, geochemical analysis, and laboratory operation support.
+    areas:
+      - Geochemistry
+    keywords:
+      - Geochemistry
+    photo: /assets/img/team/gabrielle-pontes.png
+    links:
+      lattes: https://lattes.cnpq.br/0343104008957297
+      orcid: https://orcid.org/0009-0007-7545-9755
+      github: ""
+      linkedin: ""
+      email: "gabriellepontes@id.uff.br"
+    active: true
+
   - id: thiago-sebrean
     name: Thiago Sebrean
     group: undergraduate
