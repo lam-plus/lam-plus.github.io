@@ -1,0 +1,45 @@
+{
+  "name": "Gabrielle Pontes",
+  "role": {
+    "pt": "Bolsista Técnico",
+    "en": "Bolsista Técnico"
+  },
+  "affiliation": {
+    "pt": "Universidade Federal Fluminense - UFF",
+    "en": "Fluminense Federal University (UFF)"
+  },
+  "description": {
+    "pt": "Graduando em Química, atuando como bolsista técnico no laboratório LAM+, com foco em manuseio de equipamentos, análise geoquímica e suporte à operação do laboratório.",
+    "en": "Chemistry undergraduate student, working as a technical scholarship holder at the LAM+ laboratory, with a focus on equipment handling, geochemical analysis, and laboratory operation support."
+  },
+  "areas": {
+    "pt": [
+      "Departamento de Geologia e Geofísica e Departamento de Geoquímica"
+    ],
+    "en": [
+      "Departamento de Geologia e Geofísica e Departamento de Geoquímica"
+    ]
+  },
+  "keywords": {
+    "pt": [
+      "Geoquímica"
+    ],
+    "en": [
+      "GeoChemistry"
+    ]
+  },
+  "links": {
+    "lattes": "https://lattes.cnpq.br/0343104008957297",
+    "orcid": "https://orcid.org/0009-0007-7545-9755",
+    "github": "",
+    "linkedin": "",
+    "email": "gabriellepontes@id.uff.br"
+  },
+  "photo": {
+    "filename": "gabrielle-pontes.png",
+    "mime_type": "image/png",
+    "width": 800,
+    "height": 800,
+    "size_bytes": 890770
+  }
+}
